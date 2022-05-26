@@ -1,0 +1,35 @@
+.submit-lente {
+    position:absolute;
+    top:0; right:0;
+    z-index:10;
+    border:none;
+    background:transparent;
+    outline:none;
+  }
+  
+ input{
+    border:#ed1f24 solid 3px ;
+    border-radius: 20px;
+    background-color: #09044c;
+    color: white;
+    padding-left: 30px;
+    
+ }
+ 
+ .branco{
+     color: white;
+     margin-left: -350px;
+ }
+  .submit-line {
+    position: relative;
+    width: 200px;
+  }
+  
+  .submit-line input {
+    width: 100%;
+  }
+
+    .topnav {
+      background-color: #09044c;
+    }
+    
