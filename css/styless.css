@@ -61,6 +61,11 @@ ul {
 
 /*Navbar laranja*/
 
+.navbar {
+    margin-top: 26px;
+    margin-left: 45%;
+}
+
 #menu {
     background: #FF4800;
     color: #FFF;
@@ -74,7 +79,8 @@ ul {
 #menu li {
     margin: 0 auto;
     padding: 0;
-    list-style: none
+    list-style: none;
+    margin-top: 5px;
 }
 
 #menu ul {
@@ -182,17 +188,29 @@ ul {
     color: #444444;
 }
 
-#imgNav {
-    background-image: url(../img/imgNovacap.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+
+/*imagem do prédio Israel Pinheiro*/
+
+.view {
+    background: url("../img/IsaraelPinheiro.jpg")no-repeat center center;
+    height: 680px;
+    background-size: 100%;
+    left: 0;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0px;
 }
 
 
 /* mobile styles */
 
-@media only screen and (max-width: 989px) {
+@media only screen and (max-width: 1380px) {
+    .navbar {
+        margin-top: 100px;
+        margin-left: -45px;
+    }
     header {
         height: 135px;
         background-color: #09044c;
