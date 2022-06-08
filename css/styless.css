@@ -62,7 +62,7 @@ ul {
 /*Navbar laranja*/
 
 .navbar {
-    margin-top: 26px;
+    margin-top: 106px;
     margin-left: 45%;
 }
 
@@ -186,6 +186,44 @@ ul {
 #menu ul.sub-menus a:hover {
     background: #F2F2F2;
     color: #444444;
+}
+
+
+/*footer*/
+
+footer.fixar-rodape {
+    border-top: 12px solid #FF4800;
+    height: 181px;
+    position: fixed;
+}
+
+footer {
+    background-color: #efefef;
+}
+
+footer h1 {
+    position: static;
+    margin-top: 80px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#logoNovacaoF {
+    position: fixed;
+    display: block;
+    width: 214px;
+    height: 49px;
+    margin-top: -120px;
+    margin-left: 600px;
+}
+
+#footerAzul {
+    position: fixed;
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 0px;
+    /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
 }
 
 
