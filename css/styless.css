@@ -62,8 +62,8 @@ ul {
 /*Navbar laranja*/
 
 .navbar {
-    margin-top: 106px;
-    margin-left: 45%;
+    margin-top: -20%;
+    margin-left: 72%;
 }
 
 #menu {
@@ -233,10 +233,7 @@ footer h1 {
     background: url("../img/IsaraelPinheiro.jpg")no-repeat center center;
     height: 680px;
     background-size: 100%;
-    left: 0;
-    padding: 3em;
-    position: absolute;
-    right: 0;
+    padding: 40em;
     text-align: center;
     top: 0px;
 }
@@ -244,16 +241,19 @@ footer h1 {
 
 /* mobile styles */
 
-@media only screen and (max-width: 1380px) {
+@media only screen and (max-width: 1999px) {
     .navbar {
-        margin-top: 100px;
-        margin-left: -45px;
+        margin-left: 67%;
     }
     header {
         height: 135px;
         background-color: #09044c;
     }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1820px) {
+        .navbar {
+            margin-left: -43%;
+            margin-top: -300px;
+        }
         #menu {
             position: relative
         }
