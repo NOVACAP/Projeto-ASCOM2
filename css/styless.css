@@ -1,23 +1,20 @@
-    header {
+    header{
         background-color: #09044c;
+        height: 61px;
         width: 100%;
-        height: 60px;
     }
     
     .flex-wrap {
-        margin-top: -20px !important;
+        margin-top: -6px !important;
     }
     
     .container {
-        margin-right: -15px !important;
+        align-items: center;
         height: 60px !important;
         width: 100%;
     }
     
-    #oi {
-        margin-left: -15px;
-        margin-top: 2px;
-    }
+
     /*search box*/
     
     .form-control {
@@ -26,6 +23,7 @@
         border-radius: 20px !important;
         background-color: #09044c !important;
     }
+
     /*icone search*/
     
     .branco {
@@ -38,29 +36,34 @@
         margin-left: 1px;
         padding-top: 22px;
     }
+
     
     #icones {
         margin-right: 5px;
     }
     
     li {
-        margin-top: 15px;
         margin-left: 13px;
         cursor: pointer;
     }
-    
-    ul {
-        width: 100%;
-        height: 61px;
+
+    /*imagem do prédio Israel Pinheiro*/
+
+    .view {
+        background: url("../img/IsaraelPinheiro.jpg")no-repeat center center;
+        height: 680px;
+        background-size: 100%;
+        padding: 4px;
+        text-align: center;
+        
     }
+
     /*Navbar laranja*/
     
-    .navbar {
-        margin-top: -20%;
-        margin-left: 72%;
-    }
-    
     #menu {
+        position: relative;
+        margin-left: 110rem;
+        margin-top: 5em;
         background: #FF4800;
         color: #FFF;
         width: 832px;
@@ -71,30 +74,25 @@
     
     #menu ul,
     #menu li {
+        width: 100%;
         margin: 0 auto;
         padding: 0;
         list-style: none;
-        margin-top: 5px;
-    }
-    
-    #menu ul {
-        width: 100%;
-    }
-    
-    #menu li {
-        float: left;
-        display: inline;
-        position: relative;
+        margin-top: -1px;
     }
     
     #menu a {
         display: block;
-        line-height: 45px;
+        line-height: 25px;
         padding: 0 14px;
         text-decoration: none;
         color: #FFFFFF;
         font-size: 16px;
+        float: left;
+        display: inline;
+        position: relative;
     }
+
     /*menu responsivo*/
     
     #menu a.dropdown-arrow:after {
@@ -158,51 +156,45 @@
         content: "\2261";
         margin-left: 20px;
     }
-    /*body*/
     
-    .img_pod {
-        height: 130px;
-        width: 130px;
-        background: fixed #1f9791;
+    /*body*/
+
+    /*Foto do Presidente*/
+    .img_presidente{
+        border:4px solid #1f9791;
+        height: 231px;
+        width: 229px;
         border-radius: 100%;
         position: absolute;
-        left: 39px;
-        top: 100px;
+        left: 57px;
+        top: 140px;
         transform: translateY(-50%);
+        
     }
-    
-    #fotoPresidente {
-        height: 100px;
-        width: 100px;
-        position: relative;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 100%;
-        box-shadow: 9px 9px 90rem rgba(0, 0, 0, 0.3);
-    }
-    /* #fotoPresidente {
-        border: 22px solid #a4ad23;
-        background-color: #ddd;
-        border-radius: 50%;
-        height: 200px;
-        object-fit: cover;
+
+    #fotoPresidente{
+        height: 205px;
         width: 200px;
-    } */
+        border-radius: 100%;
+        position: absolute;
+        left: 10px;
+        top: 112px;
+        transform: translateY(-50%);
+        
+    }
+
     /*footer*/
-    
+
     footer.fixar-rodape {
+        position: absolute;
+        bottom: -100%;
         border-top: 12px solid #FF4800;
         height: 181px;
-        position: fixed;
-    }
-    
-    footer {
         background-color: #efefef;
+        width: 100%;
     }
     
     footer h1 {
-        position: static;
         margin-top: 80px;
         font-size: 16px;
         text-align: center;
@@ -216,88 +208,118 @@
     }
     
     #footerAzul {
-        position: fixed;
+        position: absolute;
+        bottom: -20%;
         display: block;
         width: 100%;
         height: 40px;
         margin-bottom: 0px;
         /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
     }
-    /*imagem do prédio Israel Pinheiro*/
-    
-    .view {
-        background: url("../img/IsaraelPinheiro.jpg")no-repeat center center;
-        height: 680px;
-        background-size: 100%;
-        padding: 40em;
-        text-align: center;
-        top: 0px;
-    }
+
+
+   
     /* mobile styles */
-    
-    @media only screen and (max-width: 1999px) {
-        .navbar {
-            margin-left: 67%;
+  
+    @media only screen and (max-width: 1841px) {
+        #menu {
+            margin-left: 105rem; 
         }
-        header {
-            height: 135px;
-            background-color: #09044c;
-        }
-        @media screen and (max-width: 1820px) {
-            .navbar {
-                margin-left: -43%;
-                margin-top: -300px;
-            }
+        @media only screen and (max-width: 1783px) {
             #menu {
-                position: relative
-            }
-            #menu ul {
-                background-color: #6662618a;
-                position: absolute;
-                top: 100%;
-                right: 0;
-                left: 0;
-                z-index: 3;
-                height: auto;
-                display: none
-            }
-            #menu a:hover {
-                box-shadow: 0 0 0 3px #FF4800;
-                color: #fff;
-                border-radius: 20px;
-            }
-            #menu li {
-                display: block;
-                float: none;
-                width: auto;
-            }
-            #menu input,
-            #menu label {
-                position: absolute;
-                top: 0;
-                left: 0;
-                display: block
-            }
-            #menu input:checked+label {
-                color: white
-            }
-            #menu input:checked+label:before {
-                content: "\00d7"
-            }
-            #menu input:checked~ul {
-                display: block
-            }
-            @media screen and (min-width: 695px) {
+                margin-left: 100rem; 
+            } 
+            @media only screen and (max-width: 1673px) {
+                #menu {
+                    margin-left: 55%; 
+                } 
                 .navbar {
-                    margin-left: -28em;
-                    margin-top: -300px;
+                    width: 100%;
                 }
-                @media screen and (min-width: 645px) {
-                    .navbar {
-                        margin-left: -40em;
-                        margin-top: -300px;
-                    }
+                footer.fixar-rodape {
+                    position: absolute;
+                    bottom: -500%;
+                    border-top: 12px solid #FF4800;
+                    height: 181px;
+                    background-color: #efefef;
+                    width: 100%;
                 }
-            }
+                
+        }
+        @media only screen and (max-width: 1607px) {
+            #menu {
+                margin-left: 50%; 
+                
+            } 
+            @media only screen and (max-width: 1439px) {
+                #menu {
+                    margin-left: 10px;
+                }
+                #menu ul {
+                    background-color: #6662618a;
+                    position: absolute;
+                    top: 100%;
+                    right: 0;
+                    left: 0;
+                    z-index: 3;
+                    height: auto;
+                    display: none;
+                    text-align: center;
+                    float: left;
+                    
+                }
+                #menu a:hover {
+                    box-shadow: 0 0 0 3px #FF4800;
+                    color: #fff;
+                    border-radius: 20px;
+                    
+                }
+                
+                #menu li {
+                    
+                    position:relative;
+                    float:left;
+                    margin-top: 5px;
+                    margin-left: 40%;
+                    
+                }
+                #menu input,
+                #menu label {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: block
+                }
+                #menu input:checked+label {
+                    color: white
+                }
+                #menu input:checked+label:before {
+                    content: "\00d7"
+                }
+                #menu input:checked~ul {
+                    display: block
+                }
+        }
+        
+        @media only screen and (max-width: 991px) {
+                header{
+        background-color: #09044c;
+        height: 150px;
+        width: 100%;
+    }
+    
+    
+
+    /*search box*/
+    
+    .form-control {
+        margin-right: 50%;
+    }
+    
+    li {
+        margin-left: 13px;
+        cursor: pointer;
+    }
         }
     }
+        }}
