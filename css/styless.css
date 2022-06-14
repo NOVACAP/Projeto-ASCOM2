@@ -160,28 +160,45 @@
     /*body*/
 
     /*Foto do Presidente*/
+    /*paralelogramo*/
+    .paralelograma {
+        position: relative;
+        z-index: 1;
+        width: 382px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 190px;
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        background: #c1c1c1;
+        }
+
     .img_presidente{
+        position: relative;
+        z-index: 3;        
         border:4px solid #1f9791;
         height: 231px;
         width: 229px;
         border-radius: 100%;
-        position: absolute;
         left: 57px;
         top: 140px;
         transform: translateY(-50%);
-        
     }
 
     #fotoPresidente{
+        z-index: 2;
+        position: absolute;
         height: 205px;
         width: 200px;
         border-radius: 100%;
-        position: absolute;
         left: 10px;
         top: 112px;
         transform: translateY(-50%);
         
     }
+
+    
 
     /*footer*/
 
