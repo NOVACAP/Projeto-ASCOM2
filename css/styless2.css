@@ -1,18 +1,290 @@
-.box-red {
-    background: red;
-    z-index: 1;
-  }
+header {
+  background-color: #09044c;
+  width: 100%;
+  height: 60px;
+}
+
+.flex-wrap {
+  margin-top: -20px !important;
+}
+
+.container {
+  margin-right: -15px !important;
+  height: 60px !important;
+  width: 100%;
+}
+
+#oi {
+  margin-left: -15px;
+  margin-top: 2px;
+}
+
+
+/*search box*/
+
+.form-control {
+  text-align: center !important;
+  border: #ed1f24 solid 4px !important;
+  border-radius: 20px !important;
+  background-color: #09044c !important;
+}
+
+
+/*icone search*/
+
+.branco {
+  position: static;
+  margin-top: -48px;
+  position: absolute;
+  padding: 8px 8px 8px;
+  color: white;
+  position: static;
+  margin-left: 1px;
+  padding-top: 22px;
+}
+
+#icones {
+  margin-right: 5px;
+}
+
+li {
+  margin-top: 15px;
+  margin-left: 13px;
+  cursor: pointer;
+}
+
+ul {
+  width: 100%;
+  height: 61px;
+}
+
+/*imagem do prédio Israel Pinheiro*/
+
+.view {
+  background: url("../img/IsaraelPinheiro.jpg")no-repeat center center;
+  height: 680px;
+  background-size: 100%;
+  padding: 4px;
+  text-align: center;
   
-  .box-blue {
-    background: #00d5f1;
-    bottom: 80px;
-    left: 55px;
-    z-index: 2;
+}
+
+/*Navbar laranja*/
+
+#menu {
+  position: relative;
+  margin-left: 110rem;
+  margin-top: 5em;
+  background: #FF4800;
+  color: #FFF;
+  width: 832px;
+  height: 54px;
+  padding-left: 56px;
+  border-radius: 8px;
+}
+
+#menu ul,
+#menu li {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none
+}
+
+#menu ul {
+  width: 100%;
+}
+
+#menu li {
+  float: left;
+  display: inline;
+  position: relative;
+}
+
+#menu a {
+  display: block;
+  line-height: 45px;
+  padding: 0 14px;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+
+/*menu responsivo*/
+
+#menu a.dropdown-arrow:after {
+  content: "\25BE";
+  margin-left: 5px;
+}
+
+
+/*Destaque do menu*/
+
+#menu a {
+  -webkit-transition: box-shadow 0.2s;
+  -moz-transition: box-shadow 0.2s;
+  transition: box-shadow 0.2s;
+  border-radius: 20px;
+}
+
+#menu a::after {
+  top: 0;
+  left: 0;
+  padding: 0;
+  box-shadow: 0 0 0 3px #fff;
+  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+  transition: transform 0.2s, opacity 0.2s;
+  border-radius: 20px;
+}
+
+#menu a:hover::after {
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85);
+  opacity: 0.5;
+}
+
+#menu a:hover {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
+  color: #fff;
+  border-radius: 20px;
+}
+
+#menu input {
+  display: none;
+  margin: 0;
+  padding: 0;
+  height: 45px;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+#menu label {
+  display: none;
+  line-height: 45px;
+  text-align: center;
+  position: absolute;
+  left: 35px;
+}
+
+#menu label:before {
+  font-size: 1.6em;
+  content: "\2261";
+  margin-left: 20px;
+}
+
+#menu ul.sub-menus li {
+  display: block;
+  width: 100%;
+}
+
+#menu ul.sub-menus a {
+  color: #FFFFFF;
+  font-size: 16px;
+}
+
+#menu li:hover ul.sub-menus {
+  display: block;
+}
+
+#menu ul.sub-menus a:hover {
+  background: #F2F2F2;
+  color: #444444;
+}
+
+#imgNav {
+  background-image: url(../img/imgNovacap.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+/* mobile styles */
+@media screen and (max-width: 1880px) {
+  #menu{
+    margin-left: 105rem; 
   }
-  
-  .box-yellow {
-    background: rgb(251, 239, 0);
-    left: 25px;
-    top: 25px;
-    z-index: 3;
+  @media only screen and (max-width: 1850px) {
+    #menu {
+        margin-left: 100rem; 
+    } 
   }
+    @media only screen and (max-width: 1780px) {
+      #menu {
+          margin-left: 90rem; 
+      } 
+    }
+    @media only screen and (max-width: 1750px) {
+      #menu {
+          margin-left: 85rem; 
+      } 
+    }
+  }
+@media screen and (max-width: 1650px){
+  #menu{
+
+    margin-left: -50px;
+  }
+}
+@media only screen and (max-width: 1111px) {
+  #menu {
+    margin-left: -20px; 
+}
+
+  header {
+      height: 135px;
+      background-color: #09044c;
+  }
+  @media screen and (max-width: 800px) {
+      #menu {
+          position: relative;
+          margin-left: 5px;
+      }
+      #menu ul {
+          background-color: #ff48008a;
+          position: absolute;
+          top: 100%;
+          right: 0;
+          left: 0;
+          z-index: 3;
+          height: auto;
+          display: none
+      }
+      #menu ul.sub-menus {
+          width: 100%;
+          position: static;
+      }
+      #menu ul.sub-menus a {
+          padding-left: 30px;
+      }
+      #menu li {
+          display: block;
+          float: none;
+          width: auto;
+      }
+      #menu input,
+      #menu label {
+          position: absolute;
+          top: 0;
+          left: 0;
+          display: block
+      }
+      #menu input {
+          z-index: 4
+      }
+      #menu input:checked+label {
+          color: white
+      }
+      #menu input:checked+label:before {
+          content: "\00d7"
+      }
+      #menu input:checked~ul {
+          display: block
+      }
+  }
+}

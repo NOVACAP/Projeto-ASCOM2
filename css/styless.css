@@ -72,27 +72,30 @@
         border-radius: 8px;
     }
     
-    #menu ul,
-    #menu li {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0;
-        list-style: none;
-        margin-top: -1px;
-    }
-    
+#menu ul,
+#menu li {
+  margin: 0 auto;
+  padding: 0;
+  list-style: none
+}
+#menu ul {
+    width: 100%;
+}
+
+#menu li {
+    float: left;
+    display: inline;
+    position: relative;
+}
     #menu a {
         display: block;
-        line-height: 25px;
+        line-height: 45px;
         padding: 0 14px;
         text-decoration: none;
         color: #FFFFFF;
         font-size: 16px;
-        float: left;
-        display: inline;
-        position: relative;
     }
-
+    
     /*menu responsivo*/
     
     #menu a.dropdown-arrow:after {
@@ -102,6 +105,8 @@
     /*Destaque do menu*/
     
     #menu a {
+        margin-top: 5px;
+        height: 35px;
         -webkit-transition: box-shadow 0.2s;
         -moz-transition: box-shadow 0.2s;
         transition: box-shadow 0.2s;
@@ -137,7 +142,7 @@
         display: none;
         margin: 0;
         padding: 0;
-        height: 45px;
+        height: 35px;
         width: 100%;
         opacity: 0;
         cursor: pointer;
@@ -262,6 +267,18 @@
     font-weight: bold;
 }
 
+/*ladoDireito*/
+#aNovacap {
+    position: relative;
+    border: 2px solid #dadbd8;
+    border-radius: 50px;
+    width: 370px;
+    height: 103px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 50px 0px 0px 15px rgb(248, 245, 245), -5px 0px 0px 9px #1a928c;;
+    margin-top: 92px;
+    margin-left: 39rem;
+}
     /*footer*/
 
     footer.fixar-rodape {
@@ -299,7 +316,7 @@
 
    
     /* mobile styles */
-  
+    
     @media only screen and (max-width: 1841px) {
         #menu {
             margin-left: 105rem; 
