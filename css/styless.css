@@ -46,20 +46,28 @@
 
     .view {
         position: static;
-        background: url("../img/IsaraelPinheiro.jpg")no-repeat center center;
+        background: url("../img/IsraelPinheiro.png")no-repeat center center;
         height: 680px;
-        background-size: 100%;
+        background-size: cover;
+        background-attachment: fixed;
         margin-top: -33px;
         text-align: center;
         z-index: -1;
         
     }
+#LogoIp{
+    position: static;
+    margin-top: 5em;
+    margin-left: -132.2em;
+    width: 39.5em;
+    height: 15.9em;
 
+}
     /*Navbar laranja*/
     
     #menu {
         position: absolute;
-        margin-top: 11em;
+        margin-top: -5em;
         background: #FF4800;
         color: #FFF;
         width: 730px;
@@ -120,6 +128,7 @@
         -moz-transition: -moz-transform 0.2s, opacity 0.2s;
         transition: transform 0.2s, opacity 0.2s;
         border-radius: 20px;
+        height: 35px;
     }
     
     #menu a:hover::after {
@@ -127,13 +136,15 @@
         -moz-transform: scale(0.85);
         -ms-transform: scale(0.85);
         transform: scale(0.85);
-        opacity: 0.5;
+        opacity: 0.9;
+        height: 35px;
     }
     
     #menu a:hover {
         box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
         color: #fff;
         border-radius: 20px;
+        height: 35px;
     }
     
     #menu input {
@@ -161,8 +172,17 @@
     }
     
     /*body*/
-    
-
+     #LogoIp{
+            margin-left: -120.2em;
+            width: 29.5em;
+            height: 8.9em;
+            }
+    .container {
+        width: var(--containerSize);
+        display: block;
+        margin: 0 auto;
+        padding: var(--gutter);
+      }
     /*Foto do Presidente*/
     
 .img_presidente{
@@ -172,10 +192,9 @@
         height: 231px;
         width: 229px;
         border-radius: 100%;
-        left: 41px;
-        top: 142px;
+        top: 132px;
         transform: translateY(-50%);
-        margin-left: 5px;
+        margin-left: -280px;
 }
 
 #fotoPresidente{
@@ -197,7 +216,7 @@
         width: 378px;
         height: 100px;
         margin-top: -114px;
-        margin-left: 240px;
+        margin-left: -80px;
         -webkit-transform: skew(-20deg);
         -moz-transform: skew(-20deg);
         -o-transform: skew(-20deg);
@@ -232,7 +251,7 @@
 /*texto*/
 #texto{
     margin-top: 53px;
-    margin-left: 41px;
+    margin-left: -282px;
 }
 
 #T1, #T2{
@@ -259,6 +278,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 38px;
     font-weight: bold;
+    margin-left: -310px;
 }
 
 /*ladoDireito*/
@@ -273,7 +293,7 @@
     height: 103px;
     background-color: rgb(255, 255, 255);
     margin-top: 85px;
-    margin-left: 39rem;
+    margin-left: 25rem;
 
 }
 
@@ -309,7 +329,7 @@
     height: 46px;
     background-color: rgb(255, 255, 255);
     margin-top: 38px;
-    margin-left:33rem;
+    margin-left:20rem;
 }
 
 #AsseGeral::before{
@@ -344,7 +364,7 @@
     height: 46px;
     background-color: rgb(255, 255, 255);
     margin-top: 26px;
-    margin-left:33rem;
+    margin-left:20rem;
 }
 
 #ConcelhoAdm::before{
@@ -379,7 +399,7 @@
     height: 46px;
     background-color: rgb(255, 255, 255);
     margin-top: 26px;
-    margin-left:33rem;
+    margin-left:20rem;
 }
 
 #DirColegiada::before{
@@ -415,7 +435,7 @@
     height: 46px;
     background-color: rgb(255, 255, 255);
     margin-top: 26px;
-    margin-left:33rem;
+    margin-left:20rem;
 }
 
 #Presidencia::before{
@@ -446,13 +466,12 @@
     border-style: solid; 
     border-color: #e9e9e7 #dededc #d9dad7 white;
     box-shadow: 52px 25px 28px -8px #e7e7e7;
-
     border-radius: 50px;
     width: 104px;
     height: 30px;
     background-color: rgb(255, 255, 255);
     margin-top: -40px;
-    margin-left:49rem;
+    margin-left:36.3rem;
 }
 
 #AssCom::before{
@@ -487,7 +506,7 @@
     height: 30px;
     background-color: rgb(255, 255, 255);
     margin-top: -30px;
-    margin-left:61rem;
+    margin-left:48.5rem;
 }
 
 #SecGeral::before{
@@ -522,7 +541,7 @@
     height: 30px;
     background-color: rgb(255, 255, 255);
     margin-top: -30px;
-    margin-left:73rem;
+    margin-left:60.5rem;
 }
 
 #Ouvi::before{
@@ -558,7 +577,7 @@
     height: 30px;
     background-color: rgb(255, 255, 255);
     margin-top: 32px;
-    margin-left:330px;
+    margin-left:200px;
 }
 
 #DiretAdm::before{
@@ -593,7 +612,7 @@
     height: 30px;
     background-color: rgb(255, 255, 255);
     margin-top: -30px;
-    margin-left:440px;
+    margin-left:312px;
 }
 
 #DiretFin::before{
@@ -628,7 +647,7 @@
     height: 30px;
     background-color: rgb(255, 255, 255);
     margin-top: -30px;
-    margin-left:550px;
+    margin-left:425px;
 }
 
 #DiretJur::before{
@@ -663,7 +682,7 @@
     height: 30px;
     background-color: rgb(255, 255, 255);
     margin-top: -30px;
-    margin-left:660px;
+    margin-left:538px;
 }
 
 #DiretEd::before{
@@ -697,7 +716,7 @@
     height: 30px;
     background-color: rgb(255, 255, 255);
     margin-top: -30px;
-    margin-left:770px;
+    margin-left:650px;
 }
 
 #DiretUr::before{
@@ -726,7 +745,7 @@
 /*Normas gerais*/
 #NormasGerais{
     background-color: #f3f3f3;
-    margin-left: 320px;
+    margin-left: 180px;
     margin-top: 37px;
     width: 518px;
 }
@@ -761,49 +780,101 @@
     margin-top: 10px;
     margin-left: 340px;
 }
+
+/*Telefone da Se*/
+#TelefoneSe {
+    position: relative;
+    border-style: solid; 
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 40px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 245px;
+    height: 67px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5em;
+    margin-left: 70em;
+    margin-bottom: 20em;
+
+}
+
+#TelefoneSe::before {
+    content: "";
+    position: absolute;
+    margin-top: -14px;
+    margin-left: -15px;
+    height: 90px;
+    width: 50px;
+    background: linear-gradient(90deg, #1a928c,#006d71);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#TelefoneSe h1{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+#TelefoneSe p{
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top: 3px;
+
+}
+
     /*footer*/
 
     footer{
+        position:absolute;
+        z-index: -5;
         border-top: 12px solid #FF4800;
         height: 181px;
         background-color: #efefef;
         width: 100%;
+        background-image: url("../img/footer.jpg");
+        background-repeat: no-repeat;
+        background-position: center bottom;
     }
     
     footer h1 {
-        margin-top: 80px;
+        margin-top: 0.5em;
         font-size: 16px;
         text-align: center;
     }
-    
-    #logoNovacaoF {
-        resize: both;
-        overflow: auto;
-        margin-top: -120px;
-        margin-left: 45%;
+
+    #imgLogoF{
+        position:static;
+        margin-left: 72.5em;
+        margin-top: 1.2em;
     }
+    /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
     
-    #footerAzul {
-        
-        bottom: -20%;
-        display: block;
-        width: 100%;
-        height: 40px;
-        margin-bottom: 0px;
-        /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
-    }
 
 
    /* mobile styles */
     
-   @media only screen and (max-width: 1841px) {
+   @media only screen and (max-width: 1810px) {
     #menu {
         margin-left: 105rem; 
     }
+    #LogoIp{
+    position: static;
+    margin-top: 10em;
+    margin-left: -132.2em;
+    width: 29.5em;
+    height: 8.9em;
+    }
+
     @media only screen and (max-width: 1783px) {
         #menu {
             margin-left: 100rem; 
         } 
+        
         @media only screen and (max-width: 1673px) {
             #menu {
                 margin-left: 55%; 
@@ -811,25 +882,40 @@
             .navbar {
                 width: 100%;
             }
-            footer.fixar-rodape {
+            #LogoIp{
+                margin-left: -120.2em;
+                width: 29.5em;
+                height: 8.9em;
+                }
+            footer{
                 position: absolute;
-                bottom: -500%;
                 border-top: 12px solid #FF4800;
                 height: 181px;
                 background-color: #efefef;
                 width: 100%;
             }
-            
+            .container{
+              margin-left: 30em;
+            }    
     }
     @media only screen and (max-width: 1607px) {
         #menu {
             margin-left: 50%; 
-            
         } 
+       
         @media only screen and (max-width: 1439px) {
+            #ladoDir{
+                margin-right: 90em;
+              }
+             
             #menu {
                 margin-left: 10px;
             }
+            #LogoIp{
+                margin-left: -920.2em;
+                width: 29.5em;
+                height: 8.9em;
+                }
             #menu ul {
                 background-color: #6662618a;
                 position: absolute;
@@ -851,7 +937,6 @@
             }
             
             #menu li {
-                
                 position:relative;
                 float:left;
                 margin-top: 5px;
@@ -877,12 +962,11 @@
     }
     
     @media only screen and (max-width: 991px) {
-            header{
+    header{
     background-color: #09044c;
     height: 150px;
     width: 100%;
 }
-
 
 
 /*search box*/

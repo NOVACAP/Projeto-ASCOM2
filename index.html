@@ -21,8 +21,8 @@
 
 </head>
 
-<body style="overflow:auto;
-height:100%">
+<body>
+    
     <!--nav azul-->
     <header class="p-3 text-white">
         <div class="d-flex flex-row-reverse">
@@ -65,6 +65,7 @@ height:100%">
 
     <!--Navbar laranja e imagem-->
     <div class="view intro hm-purple-light " style="z-index: 2;">
+        <img class="img-fluid" id="LogoIp" src="./img/logoIP.png" alt="" >
         <nav id='menu'>
             <input type='checkbox' id='responsive-menu' onclick='updatemenu()' style="z-index: 1;"><label></label>
             <ul>
@@ -78,13 +79,14 @@ height:100%">
             </ul>
         </nav>
     </div>
+    <img src="./img/FIp.png" alt="">
     <!--Fim da Navbar laranja e imagem-->
 
     <!--body-->
     <div class="container">
         <!--Foto do presidente e título-->
-        <div class="row">
-            <div class="item col-6">
+        <div class="row justify-content-center">
+            <div class="item col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4">
                 <div class="img_presidente">
                     <img id="fotoPresidente" src="img/foto_presidente.jpg" alt="">
                 </div>
@@ -177,7 +179,7 @@ height:100%">
             </div>
             <!--Lado Direito-->
             <!--Organograma-->
-            <div class="col-6" id="ladoDir">
+            <div class="col-12 col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4" id="ladoDir">
                 <div id="organograma">
                     <div id="aNovacap">
                         <h1>A NOVACAP</h1>
@@ -234,8 +236,13 @@ height:100%">
                 </ul>
                 <a href="">Veja Todos >>></a>
             </div>
+            
         </div>
         </div>
+        </div>
+        <div id="TelefoneSe">
+            <h1>Telefone da sessão:</h1>
+            <p>3403-2330</p>
         </div>
         
 
@@ -245,16 +252,15 @@ height:100%">
     <footer class="footer">
 
         <div>
+            <img class="img-fluid" id="imgLogoF" src="img/logoFooter.png" >
             <h1>
                 <p> Urbanizadora da Nova Capital do Brasil Governo do Distrito Federal</p>
                 <p>Setor de Áreas Públicas - Lote B - Cep:71.215-000 Telefone: 3403-2300</p>
             </h1>
-            <img id="footerAzul" src="../Projeto-ASCOM/img/footer.jpg" />
-            <img styless="width:40%" id="logoNovacaoF" src="../Projeto-ASCOM/img/logoFooter.jpg" alt="">
+            
         </div>
-
+        
     </footer>
-
 </body>
 
 </html>
