@@ -59,9 +59,12 @@
     position: static;
     margin-top: 5em;
     margin-left: -132.2em;
-    width: 39.5em;
-    height: 15.9em;
+    width: 39.8em;
+    height: 15.7em;
+}
 
+#FB{
+    width: 100%;
 }
     /*Navbar laranja*/
     
@@ -792,7 +795,7 @@
     height: 67px;
     background-color: rgb(255, 255, 255);
     margin-top: 5em;
-    margin-left: 70em;
+    margin-left: 72em;
     margin-bottom: 20em;
 
 }
@@ -825,6 +828,29 @@
     margin-left: 60px;
     margin-top: 3px;
 
+}
+
+#ouv{
+    margin-left: 13em;
+    margin-bottom: 3em;
+}
+#denuncia{
+    margin-left: 1.8em;
+    margin-bottom: -0.5em;
+}
+#reclamacao{
+    margin-left: 2.3em;
+}
+#sugest{
+    margin-left: 3.0em;
+    margin-bottom: -0.5em;
+}
+#elogio{
+    margin-left: 3.0em;
+    margin-bottom: -0.5em;
+}
+#ouvid{
+    margin-left: 3.9em;
 }
 
     /*footer*/
@@ -912,7 +938,7 @@
                 margin-left: 10px;
             }
             #LogoIp{
-                margin-left: -920.2em;
+                margin-left: 95.0em;
                 width: 29.5em;
                 height: 8.9em;
                 }
