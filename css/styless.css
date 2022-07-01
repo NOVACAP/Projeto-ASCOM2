@@ -57,10 +57,8 @@
     }
 #LogoIp{
     position: static;
-    margin-top: 5em;
-    margin-left: -132.2em;
-    width: 39.8em;
-    height: 15.7em;
+    margin-top: 9em;
+    margin-right: 58em;
 }
 
 #FB{
@@ -70,7 +68,7 @@
     
     #menu {
         position: absolute;
-        margin-top: -5em;
+        margin-top: 3em;
         background: #FF4800;
         color: #FFF;
         width: 730px;
@@ -281,7 +279,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 38px;
     font-weight: bold;
-    margin-left: -310px;
+    margin-left: -340px;
 }
 
 /*ladoDireito*/
@@ -853,6 +851,33 @@
     margin-left: 3.9em;
 }
 
+/*Página diretoria*/
+
+#NormasGerais ul{
+    margin-top: 53px;
+    font-size: 21px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d3091;
+    list-style: none;
+}
+
+#NormasGerais li{
+    margin-top: 5px;
+}
+#NormasGerais ul li::before{
+    content: '\2022';font-size:50px;
+    line-height:24px; vertical-align:middle;
+    margin: 0 10px;
+    color: #ff5e00 /* cor da bolinha */
+}
+#NormasGerais a{
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 340px;
+}
+
     /*footer*/
 
     footer{
@@ -884,23 +909,44 @@
 
    /* mobile styles */
     
-   @media only screen and (max-width: 1810px) {
+   @media only screen and (max-width: 2500px) {
     #menu {
-        margin-left: 105rem; 
+        margin-left: 130rem; 
+        margin-top: -10em;
     }
     #LogoIp{
     position: static;
     margin-top: 10em;
-    margin-left: -132.2em;
-    width: 29.5em;
-    height: 8.9em;
+    margin-left: -100.2em;
+    width: 32.5em;
+    height: 12.9em;
+    }
+
+    @media only screen and (max-width: 2000px) {
+        #menu {
+            margin-left: 110rem; 
+            margin-top: -10em;
+        }
+        #LogoIp{
+            position: static;
+            margin-top: 10em;
+            margin-left: -80.2em;
+            width: 32.5em;
+            height: 12.9em;
+            }
     }
 
     @media only screen and (max-width: 1783px) {
         #menu {
             margin-left: 100rem; 
         } 
-        
+        #LogoIp{
+            position: static;
+            margin-top: 10em;
+            margin-left: -70.2em;
+            width: 32.5em;
+            height: 12.9em;
+            }
         @media only screen and (max-width: 1673px) {
             #menu {
                 margin-left: 55%; 
@@ -909,7 +955,7 @@
                 width: 100%;
             }
             #LogoIp{
-                margin-left: -120.2em;
+                margin-left: -50.2em;
                 width: 29.5em;
                 height: 8.9em;
                 }
@@ -966,7 +1012,7 @@
                 position:relative;
                 float:left;
                 margin-top: 5px;
-                margin-left: 40%;
+                margin-left: 45%;
                 
             }
             #menu input,
@@ -985,6 +1031,11 @@
             #menu input:checked~ul {
                 display: block
             }
+            #imgLogoF{
+                position:static;
+                margin-left: 60.5em;
+                margin-top: 1.2em;
+            }
     }
     
     @media only screen and (max-width: 991px) {
@@ -993,6 +1044,7 @@
     height: 150px;
     width: 100%;
 }
+
 
 
 /*search box*/
