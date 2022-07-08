@@ -94,8 +94,8 @@
     position: relative;
 }
     #menu a {
-        display: inline;
-        line-height: 55px;
+        display: block;
+        line-height: 45px;
         padding: 0 9px;
         text-decoration: none;
         color: #FFFFFF;
