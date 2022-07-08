@@ -79,9 +79,10 @@
     
 #menu ul,
 #menu li {
-  margin: 0 auto;
-  padding: 0;
-  list-style: none
+    font-family: 'helvetica-65-medium', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none
 }
 #menu ul {
     width: 100%;
@@ -93,15 +94,15 @@
     display: inline;
     position: relative;
 }
-    #menu a {
-        display: block;
-        line-height: 45px;
-        padding: 0 9px;
-        text-decoration: none;
-        color: #FFFFFF;
-        font-size: 16px;
-        margin-left: 8px;
-    }
+#menu a {
+    /*display: block;*/
+    line-height: 55px;
+    padding: 0 9px;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: 8px;
+}
     
     /*menu responsivo*/
     
@@ -183,7 +184,7 @@
         display: block;
         margin: 0 auto;
         padding: var(--gutter);
-      }
+    }
     /*Foto do Presidente*/
     
 .img_presidente{
@@ -233,20 +234,20 @@
     margin-left: 28px;
     margin-bottom: 1px;
     font-size: 29px;
-    font-family:unset;
+    font-family: 'cocogoose-pro-light-2', sans-serif;
 }
 
 .paralelograma #xxx{
     margin-left: 32px ;
     margin-bottom: 1px;
     font-size: 18px;
-    font-family:unset;
+    font-family: 'cocogoose-pro-light-2', sans-serif;
 }
 
 .paralelograma #conteudo{
     margin-left: 32px ;
     font-size: 15px;
-    font-family:serif;
+    font-family: 'cocogoose-pro-light-2';
 }
 
 /*texto*/
@@ -997,8 +998,17 @@
     color: #ff5e00 /* cor da bolinha */
 }
 
+#NormasGerais{
+    width: 518px;
+    height: 451px;
+}
+
+#NormasGerais h2{
+    padding-top: 0.20em;
+}
+
 #NormasGerais ul{
-    margin-top: 53px;
+    margin-top: 2.5em;
     font-size: 21px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #2d3091;
@@ -1006,8 +1016,9 @@
 }
 
 #NormasGerais li{
-    margin-top: 5px;
+    margin-top: 0.05em;
 }
+
 #NormasGerais ul li::before{
     content: '\2022';font-size:50px;
     line-height:24px; vertical-align:middle;
@@ -1018,8 +1029,6 @@
     font-weight: bold;
     color: black;
     font-size: 23px;
-    margin-top: 10px;
-    margin-left: 340px;
 }
 
 
@@ -1067,6 +1076,13 @@
     margin-left: 60px;
     margin-top: 3px;
 
+}
+
+
+#imgLogoFooter{
+    position:static;
+    margin-left: 85em;
+    margin-top: 1.2em;
 }
     /*footer*/
 
