@@ -93,8 +93,8 @@
     display: inline;
     position: relative;
 }
-    #menu a {
-        display: inline;
+    #menu a { 
+        display: flex-end;
         line-height: 55px;
         padding: 0 9px;
         text-decoration: none;
