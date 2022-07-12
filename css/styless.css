@@ -58,7 +58,8 @@
 #LogoIp{
     position: static;
     margin-top: 9em;
-    margin-right: 58em;
+    margin-right: 5em;
+    width: 5em;
 }
 
 #FB{
