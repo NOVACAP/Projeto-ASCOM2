@@ -6,6 +6,10 @@
         width: 100%;
         z-index: 500;
     }
+
+    #starter {
+        height: 91.1vh;
+    }
     
     .flex-wrap {
         margin-top: -6px !important;
@@ -22,13 +26,11 @@
     /*icone search*/
     
     .branco {
-        position: static;
         margin-top: -45px;
         position: absolute;
         padding: 8px 8px 8px;
         color: white;
-        position: static;
-        margin-left: 1px;
+        margin-left: 6px;
         padding-top: 22px;
     }
 
@@ -67,14 +69,16 @@
     /*Navbar laranja*/
     
     #menu {
+        margin-left: 110rem;
+        margin-top: -11em;
         position: absolute;
-        margin-top: 3em;
         background: #FF4800;
         color: #FFF;
         width: 730px;
         height: 54px;
-        border-radius: 8px;
+        border-radius: 8px 0 0 8px;
         z-index: 1;
+        right: 0;
     }
     
 #menu ul,
@@ -174,10 +178,15 @@
     
     /*body*/
      #LogoIp{
-            margin-left: -120.2em;
-            width: 29.5em;
-            height: 8.9em;
-            }
+        position: static;
+        margin-top: 10em;
+        margin-left: -80.2em;
+        width: 32.5em;
+        height: 12.9em;
+        /*margin-left: -120.2em;
+        width: 29.5em;
+        height: 8.9em;*/
+        }
     .container {
         width: var(--containerSize);
         display: block;
@@ -749,6 +758,7 @@
     margin-left: 180px;
     margin-top: 37px;
     width: 518px;
+    height: 42vh;
 }
 #T3{
     color: #2d3091;
@@ -756,6 +766,7 @@
     font-size: 41px;
     font-weight: bold;
     text-align: center;
+    padding-top: 2%;
 }
 #NormasGerais ul{
     margin-top: 53px;
@@ -793,7 +804,7 @@
     height: 67px;
     background-color: rgb(255, 255, 255);
     margin-top: 5em;
-    margin-left: 72em;
+    margin-left: 43%;
     margin-bottom: 20em;
 
 }
@@ -886,6 +897,7 @@
     font-weight: bold;
     margin-left: 100px;
     margin-top: 15px;
+    padding-top: 5%;
 }
 
 
@@ -1034,7 +1046,7 @@
     height: 67px;
     background-color: rgb(255, 255, 255);
     margin-top: 5em;
-    margin-left: 85em;
+    margin-left: 43%;
     margin-bottom: 20em;
 
 }
@@ -1069,6 +1081,23 @@
 
 }
     /*footer*/
+#ouvidoria {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 120px;
+}
+#cluster__1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cluster__2 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
 
     footer{
         position:absolute;
@@ -1089,9 +1118,14 @@
     }
 
     #imgLogoF{
-        position:static;
+        /*position:static;
         margin-left: 72.5em;
+        margin-top: 1.2em;*/
+        position: relative;
+        max-width: 100%;
+        margin-left: 45%;
         margin-top: 1.2em;
+        
     }
     /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
     
@@ -1099,7 +1133,7 @@
 
    /* mobile styles */
     
-   @media only screen and (max-width: 2500px) {
+   /*@media only screen and (max-width: 2500px) {
     #menu {
         margin-left: 130rem; 
         margin-top: -10em;
@@ -1110,9 +1144,9 @@
     margin-left: -100.2em;
     width: 32.5em;
     height: 12.9em;
-    }
+    }*/
 
-    @media only screen and (max-width: 2000px) {
+   /* @media only screen and (max-width: 2000px) {
         #menu {
             margin-left: 110rem; 
             margin-top: -10em;
@@ -1123,9 +1157,9 @@
             margin-left: -80.2em;
             width: 32.5em;
             height: 12.9em;
-            }
-    }
-
+            }/*icone mexe aqui*
+    }*/
+/*
     @media only screen and (max-width: 1783px) {
         #menu {
             margin-left: 100rem; 
@@ -1164,14 +1198,16 @@
         #menu {
             margin-left: 50%; 
         } 
-       
+       */
         @media only screen and (max-width: 1439px) {
             #ladoDir{
                 margin-right: 90em;
               }
              
             #menu {
-                margin-left: 10px;
+                width: 100%;
+                border-radius: 0;
+                margin-top: ;
             }
             #LogoIp{
                 margin-left: 95.0em;
@@ -1227,7 +1263,7 @@
                 margin-top: 1.2em;
             }
     }
-    
+    /*
     @media only screen and (max-width: 991px) {
     header{
     background-color: #09044c;
@@ -1247,7 +1283,5 @@ li {
     margin-left: 13px;
     cursor: pointer;
 }
-    }
-}
-    }}
+
 
