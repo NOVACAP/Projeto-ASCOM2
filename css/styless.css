@@ -16,6 +16,8 @@ header{
 /*search box*/
 
 .form-control {
+    position: relative;
+    margin-top: -3rem;
     text-align: center !important;
     border: #ed1f24 solid 4px !important;
     border-radius: 20px !important;
@@ -33,14 +35,12 @@ header{
     padding-top: 22px;
 }
 
-
-#icones {
-    margin-right: 5px;
-}
-
-li {
-    margin-left: 13px;
-    cursor: pointer;
+/*icones mídias socias*/
+#oi img{
+    position: relative;
+    height: 10.5rem;
+    margin-left: -4.0rem;
+    margin-top: -4rem;
 }
 
 /*imagem do prédio Israel Pinheiro*/
@@ -1079,6 +1079,115 @@ margin-left: 60px;
 margin-top: 3px;
 
 }
+/* ************************************************************************ Página principal********************************************************************************* */
+/*body*/
+.container-fluid {
+    margin-left: 25rem;
+    width: 144.0rem;
+    height: 78.1rem;
+    margin-top: 6.2rem;
+    }
+    
+    .container-fluid h2 {
+        margin-top: 2rem;
+    }
+    
+    .col-sm {
+        width: 26.1rem;
+        height: 36.8rem;
+        margin-right: 3.2rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1em #cfc9c9bb;
+    }
+    
+    .col-sm img {
+        margin-top: 2.1rem;
+    }
+    
+    .col-auto {
+        width: 25.6rem;
+        height: 36.8rem;
+        margin-top: 4.1rem;
+        border-radius: 1rem;
+        box-shadow: 0 0 1em #cfc9c9bb;
+    }
+    
+    .col-auto img {
+        margin-top: 2.1rem;
+    }
+    
+    #circulo {
+    width: 7.1rem;
+    height: 7.1rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1.0rem;
+    margin-left: 0.7rem;
+    }
+    
+    #caneta {
+        margin: 1.0rem;
+        ;
+    }
+    
+    #AP {
+        background-image: linear-gradient(to right, #201f71, #004fff);
+        color: white;
+    }
+    
+    #DaNovacap {
+        background-image: url("../img/Novacap65.png");
+        background-repeat: round;
+    }
+    
+    .button {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    background: #95cd01;
+    border-radius: 0.8rem;
+    padding: 1.0rem 4.9rem 1.0rem 1.5rem;
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    margin-top: 17rem;
+    margin-left: 2rem;
+    width: 19.0rem;
+    height: 4.8rem;
+    }
+    
+    .button>i {
+    font-size: 1em;
+    align-items: center;
+    background: #95cd01;
+    border-bottom-right-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    border-left: 2px solid #a8a6a69f;
+    padding: 1.4rem 2.8rem 1.8rem 0.8rem;  
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    }
+    
+    .button p{
+    color: #3a4d07;
+    font-size: 6px;
+        }
+
+    .Avisos h1 {
+    margin-top: 8.0rem;
+    margin-left: 60rem;
+    font-size: 4.1rem;
+    color: #2d3091;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    .Avisos p {
+    margin-top: 2.0rem;
+    margin-left: 70rem;
+    font-size: 2.7rem;
+    color: #696969;
+    }
+
 /*footer*/
 #ouvidoria {
 display: flex;
@@ -1190,7 +1299,7 @@ height: 12.9em;
             width: 100%;
         }
         .container{
-          margin-left: 30em;
+        margin-left: 30em;
         }    
 }
 @media only screen and (max-width: 1607px) {
@@ -1201,8 +1310,8 @@ height: 12.9em;
     @media only screen and (max-width: 1439px) {
         #ladoDir{
             margin-right: 90em;
-          }
-         
+            }
+            
         #menu {
             width: 100%;
             border-radius: 0;
