@@ -291,6 +291,7 @@ margin-left: -340px;
 }
 
 /*ladoDireito*/
+
 /*Organograma*/
 #aNovacap {
 position: relative;
@@ -300,8 +301,8 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 370px;
 height: 103px;
-background-color: rgb(255, 255, 255);
-margin-top: 85px;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: 8.5rem;
 margin-left: 25rem;
 
 }
@@ -320,12 +321,13 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#aNovacap h1{
+#aNovacap p{
 text-decoration: none;
 font-weight: bold;
-margin-left: 100px;
-margin-top: 30px;
-
+margin-left: 8.0rem;
+margin-top: 3.0rem;
+padding-top: 2rem;
+font-size: 4rem;
 }
 
 #AsseGeral{
@@ -336,7 +338,7 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 146px;
 height: 46px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: 38px;
 margin-left:20rem;
 }
@@ -355,7 +357,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#AsseGeral h1{
+#AsseGeral p{
 font-size: 15px;
 font-weight: bold;
 margin-left: 5px;
@@ -371,7 +373,7 @@ box-shadow: 52px 25px 28px -8px #e7e7e7;
 border-radius: 50px;
 width: 146px;
 height: 46px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: 26px;
 margin-left:20rem;
 }
@@ -390,7 +392,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#ConcelhoAdm h1{
+#ConcelhoAdm p{
 font-size: 15px;
 font-weight: bold;
 margin-left: 4px;
@@ -406,7 +408,7 @@ box-shadow: 52px 25px 28px -8px #e7e7e7;
 border-radius: 50px;
 width: 146px;
 height: 46px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: 26px;
 margin-left:20rem;
 }
@@ -425,7 +427,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DirColegiada h1{
+#DirColegiada p{
 font-size: 15px;
 font-weight: bold;
 margin-left: 4px;
@@ -442,7 +444,7 @@ box-shadow: 52px 25px 28px -8px #e7e7e7;
 border-radius: 50px;
 width: 146px;
 height: 46px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: 26px;
 margin-left:20rem;
 }
@@ -461,13 +463,13 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#Presidencia h1{
+#Presidencia p{
 font-size: 15px;
 font-weight: bold;
 margin-left: 4px;
 margin-top: 10px;
 text-align: center;
-
+padding-top: 1.0rem;
 }
 
 #AssCom{
@@ -478,15 +480,15 @@ box-shadow: 52px 25px 28px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
-margin-top: -40px;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: -3.5rem;
 margin-left:36.3rem;
 }
 
 #AssCom::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -497,7 +499,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#AssCom h1{
+#AssCom p{
 font-size: 10px;
 font-weight: bold;
 margin-left: 4px;
@@ -513,15 +515,15 @@ box-shadow: 52px 25px 28px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
-margin-top: -30px;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: -3.5rem;
 margin-left:48.5rem;
 }
 
 #SecGeral::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -532,11 +534,12 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#SecGeral h1{
+#SecGeral p{
 font-size: 10px;
 font-weight: bold;
 margin-left: 4px;
 margin-top: 5px;
+padding-top: 0.8rem;
 text-align: center;
 }
 
@@ -548,15 +551,15 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
-margin-top: -30px;
-margin-left:60.5rem;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: -3.5rem;
+margin-left:62.5rem;
 }
 
 #Ouvi::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -567,11 +570,12 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#Ouvi h1{
+#Ouvi p{
 font-size: 10px;
 font-weight: bold;
 margin-left: 4px;
 margin-top: 6px;
+padding-top: 0.5rem;
 text-align: center;
 }
 
@@ -584,15 +588,15 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
-margin-top: 32px;
-margin-left:200px;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: 3.2rem;
+margin-left:20.0rem;
 }
 
 #DiretAdm::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -603,7 +607,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DiretAdm h1{
+#DiretAdm p{
 font-size: 10px;
 font-weight: bold;
 margin-left: 4px;
@@ -619,15 +623,15 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
-margin-top: -30px;
-margin-left:312px;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: -3.0rem;
+margin-left: 31.2rem;
 }
 
 #DiretFin::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -638,7 +642,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DiretFin h1{
+#DiretFin p{
 font-size: 10px;
 font-weight: bold;
 margin-left: 4px;
@@ -654,15 +658,15 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
-margin-top: -30px;
-margin-left:425px;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: -3.0rem;
+margin-left:42.5rem;
 }
 
 #DiretJur::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -673,7 +677,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DiretJur h1{
+#DiretJur p{
 font-size: 10px;
 font-weight: bold;
 margin-left: 4px;
@@ -689,15 +693,15 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
-margin-top: -30px;
-margin-left:538px;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: -3.0rem;
+margin-left:53.8rem;
 }
 
 #DiretEd::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -708,7 +712,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DiretEd h1{
+#DiretEd p{
 font-size: 10px;
 font-weight: bold;
 margin-left: 4px;
@@ -723,7 +727,7 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: -30px;
 margin-left:650px;
 }
@@ -731,7 +735,7 @@ margin-left:650px;
 #DiretUr::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -742,7 +746,7 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DiretUr h1{
+#DiretUr p{
 font-size: 10px;
 font-weight: bold;
 margin-left: 4px;
@@ -803,17 +807,18 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 245px;
 height: 67px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: 10em;
 margin-left: 44%;
 margin-bottom: -15em;
 
 }
 
+
 #TelefoneSe::before {
 content: "";
 position: absolute;
-margin-top: -14px;
+margin-top: -11px;
 margin-left: -15px;
 height: 90px;
 width: 50px;
@@ -825,18 +830,19 @@ border-bottom-left-radius: 60px;
 }
 
 #TelefoneSe h1{
-font-size: 20px;
-text-decoration: none;
-font-weight: bold;
-margin-left: 20px;
-margin-top: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 5px;
+    padding-top: 0.5rem;
 
 }
 #TelefoneSe p{
-font-size: 20px;
-text-decoration: none;
-margin-left: 60px;
-margin-top: 3px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 60px;
+    margin-top: 3px;
 
 }
 
@@ -873,7 +879,7 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 370px;
 height: 103px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: 85px;
 margin-left: 25rem;
 
@@ -893,12 +899,14 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DiretFinanc h1{
+#DiretFinanc p{
 text-decoration: none;
 font-weight: bold;
 margin-left: 100px;
 margin-top: 15px;
 padding-top: 5%;
+font-size: 3rem;
+padding-top: 0.5rem;
 }
 
 
@@ -910,15 +918,16 @@ box-shadow: 52px 25px 28px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
-margin-top: 35px;
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
+margin-top: 30px;
 margin-left:36.3rem;
+padding-top: -3rem;
 }
 
 #DEFIN::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -0.2rem;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -929,12 +938,12 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DEFIN h1{
-font-size: 25px;
+#DEFIN p{
+font-size: 21px;
 font-weight: bold;
-margin-left: 4px;
-margin-top: -5px;
+margin-left: -6px;
 text-align: center;
+padding-bottom: 2rem;
 }
 
 
@@ -965,7 +974,7 @@ box-shadow: 52px 25px 28px -8px #e7e7e7;
 border-radius: 50px;
 width: 104px;
 height: 30px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: 40px;
 margin-left:36.3rem;
 }
@@ -973,7 +982,7 @@ margin-left:36.3rem;
 #DECON::before{
 content: "";
 position: absolute;
-margin-top: -5px;
+margin-top: -3px;
 margin-left: -8px;
 height: 35px;
 width: 18px;
@@ -984,12 +993,12 @@ border-top-left-radius: 60px;
 border-bottom-left-radius: 60px;
 }
 
-#DECON h1{
-font-size: 25px;
-font-weight: bold;
-margin-left: 4px;
-margin-top: -5px;
-text-align: center;
+#DECON p{
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
 #NRP ul{
@@ -1047,7 +1056,7 @@ box-shadow: 52px 25px 40px -8px #e7e7e7;
 border-radius: 50px;
 width: 245px;
 height: 67px;
-background-color: rgb(255, 255, 255);
+background-image: linear-gradient(to right,#dfe0dd, #eaeae9, #fbfbfb);
 margin-top: 10em;
 margin-left: 44%;
 margin-bottom: -15em;
@@ -1057,7 +1066,7 @@ margin-bottom: -15em;
 #TelefoneSessão::before {
 content: "";
 position: absolute;
-margin-top: -14px;
+margin-top: -11px;
 margin-left: -15px;
 height: 90px;
 width: 50px;
@@ -1074,6 +1083,7 @@ text-decoration: none;
 font-weight: bold;
 margin-left: 20px;
 margin-top: 5px;
+padding-top: 0.5rem;
 
 }
 #TelefoneSessão p{
