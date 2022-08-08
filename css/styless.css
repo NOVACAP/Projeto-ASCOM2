@@ -1144,6 +1144,38 @@ margin-top: 3px;
         font-size: 2rem;
     }
 
+    .Avisos h1 {
+        margin-top: 8.0rem;
+        margin-left: 65rem;
+        font-size: 4.1rem;
+        color: #2d3091;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .Avisos p {
+    margin-top: 2.0rem;
+    margin-left: 75rem;
+    font-size: 2.7rem;
+    color: #696969;
+    margin-bottom: 80px;
+    }
+
+    .noticias h1 {
+        margin-top: 8.0rem;
+        text-align: center;
+        font-size: 4.1rem;
+        color: #2d3091;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .noticias p {
+        margin-top: 2.0rem;
+        font-size: 2.7rem;
+        color: #696969;
+        text-align: center;
+        margin-bottom: 80px;
+        padding: 0 40rem;
+    }
+    
 
     #avisosCartao {
         display: grid;
@@ -1191,7 +1223,7 @@ margin-top: 3px;
         color: #FFFFFF;
         text-decoration: underline;
         font-size: 1.5rem;
-        margin-left: 450px;
+        margin-left: 42rem;
         text-transform: uppercase;
         font-weight: 500;
     }
@@ -1202,6 +1234,7 @@ margin-top: 3px;
         padding-top: 12px;
         padding-bottom: -12px;
         margin-bottom: 0px;
+        font-weight: 600;
     }
 
     #aCartao #p2{
@@ -1214,8 +1247,32 @@ margin-top: 3px;
         color: black;
         text-decoration: none;
         font-size: 20px;
-        margin-left: 1711px;
+        margin-left: 1698px;
     }
+
+    #imgObra {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .textoObra{
+        background-color: rgba(46, 130, 185, 0.5);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
     #circulo {
@@ -1269,20 +1326,6 @@ margin-top: 3px;
     margin-top: -9rem;
         }
 
-    .Avisos h1 {
-    margin-top: 8.0rem;
-    margin-left: 65rem;
-    font-size: 4.1rem;
-    color: #2d3091;
-    font-family: Arial, Helvetica, sans-serif;
-}
-    .Avisos p {
-    margin-top: 2.0rem;
-    margin-left: 75rem;
-    font-size: 2.7rem;
-    color: #696969;
-    margin-bottom: 80px;
-    }
 
 /*footer*/
 
