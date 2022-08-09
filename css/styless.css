@@ -99,7 +99,7 @@ header {
 
 .view {
     position: static;
-    background: url("../img/IsraelPinheiro.png")no-repeat center center;
+    background: url("../img/Imagens_para_construcao_da_Intra__4_.jpeg")no-repeat center center;
     height: 680px;
     background-size: cover;
     background-attachment: fixed;
@@ -118,7 +118,7 @@ header {
 }
 
 #wave {
-    margin-top: -6%;
+    margin-top: -9%;
     margin-left: -7.84rem;
     width: 108%;
 
@@ -955,6 +955,20 @@ header {
 }
 
 /* ************************************************************************ Página diretoria ********************************************************************************* */
+.view2 {
+    position: static;
+    background: url("../img/Imagens_para_construcao_da_Intra__1_.jpeg")no-repeat center center;
+    height: 680px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -33px;
+    text-align: center;
+    z-index: -1;
+    margin-left: 0;
+    margin-right: 0;
+
+}
+
 .trasso {
     position: relative;
 }
@@ -1216,7 +1230,19 @@ header {
 
 /* ************************************************************************ Página principal********************************************************************************* */
 /*body*/
+.view3 {
+    position: static;
+    background: url("../img/Imagens_para_construcao_da_Intra__2_.jpeg")no-repeat center center;
+    height: 680px;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: -33px;
+    text-align: center;
+    z-index: -1;
+    margin-left: 0;
+    margin-right: 0;
 
+} 
 .container-fluid {
     margin-left: 25rem;
     width: 144.0rem;
