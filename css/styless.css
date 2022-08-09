@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -954,7 +958,7 @@ header {
     margin-left: 3.9em;
 }
 
-/* ************************************************************************ Página diretoria ********************************************************************************* */
+/* ************************************************************************ Página diretoria financeira ********************************************************************************* */
 .view2 {
     position: static;
     background: url("../img/Imagens_para_construcao_da_Intra__1_.jpeg")no-repeat center center;
@@ -993,6 +997,30 @@ header {
 }
 
 
+
+/*organograma*/
+#organograma ul {
+    margin-top: -2rem;
+    font-size: 2.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    list-style: none;
+}
+
+#organograma li {
+    margin-top: 0.2rem;
+    margin-left: -4rem;
+}
+
+#organograma ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #0f1a7b
+        /* cor da bolinha */
+}
 #DiretFinanc {
     position: relative;
     border-style: solid;
@@ -1031,8 +1059,6 @@ header {
     padding-top: 0.5rem;
 }
 
-
-/*organograma*/
 #DEFIN {
     position: relative;
     border-style: solid;
@@ -1042,15 +1068,14 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 36.3rem;
-    padding-top: -3rem;
 }
 
 #DEFIN::before {
     content: "";
     position: absolute;
-    margin-top: -0.2rem;
+    margin-top: -3px;
     margin-left: -8px;
     height: 35px;
     width: 18px;
@@ -1070,29 +1095,6 @@ header {
 }
 
 
-#organograma ul {
-    margin-top: 53px;
-    font-size: 21px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-    list-style: none;
-}
-
-#organograma li {
-    margin-top: 5px;
-    margin-left: 15.2em;
-}
-
-#organograma ul li::before {
-    content: '\2022';
-    font-size: 50px;
-    line-height: 24px;
-    vertical-align: middle;
-    margin: 0 10px;
-    color: #0f1a7b
-        /* cor da bolinha */
-}
-
 #DECON {
     position: relative;
     border-style: solid;
@@ -1102,7 +1104,7 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 40px;
+    margin-top: 15rem;
     margin-left: 36.3rem;
 }
 
@@ -1137,7 +1139,7 @@ header {
 }
 
 #NRP li {
-    margin-top: 5px;
+    margin-top: 2rem;
 }
 
 #NRP ul li::before {
@@ -1150,8 +1152,12 @@ header {
         /* cor da bolinha */
 }
 
+#NormasGerais{
+    margin-top: 12rem;
+    margin-left: 20rem;
+}
+
 #NormasGerais ul {
-    margin-top: 53px;
     font-size: 21px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #2d3091;
@@ -1159,7 +1165,7 @@ header {
 }
 
 #NormasGerais li {
-    margin-top: 5px;
+    margin-top: 0.5rem;
 }
 
 #NormasGerais ul li::before {
@@ -1228,7 +1234,673 @@ header {
     margin-top: 3px;
 }
 
+/* ************************************************************************ Página diretoria financeira ********************************************************************************* */
+#organogramaADM ul {
+    margin-top: -2rem;
+    font-size: 2.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    list-style: none;
+
+}
+
+#organogramaADM li {
+    margin-top: 0.2rem;
+    margin-left: -4rem;
+}
+
+#organogramaADM ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #0f1a7b
+        /* cor da bolinha */
+}
+
+#DiretADM {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 40px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 370px;
+    height: 103px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 19rem;
+    margin-left: 25rem;
+
+}
+
+#DiretADM::before {
+    content: "";
+    position: absolute;
+    margin-top: -14px;
+    margin-left: -15px;
+    height: 128px;
+    width: 80px;
+    background: linear-gradient(90deg, #1a928c, #006d71);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DiretADM p {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 3rem;
+    margin-top: 15px;
+    padding-top: 5%;
+    font-size: 3rem;
+    padding-top: 0.5rem;
+}
+
+
+#DEGEP {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 30px;
+    margin-left: 25rem;
+    padding-top: -8rem;
+}
+
+#DEGEP::before {
+    content: "";
+    position: absolute;
+    margin-top: -0.2rem;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DEGEP p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#DECOMP {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 14rem;
+    margin-left: 25rem;
+}
+
+#DECOMP::before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DECOMP p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#DETRA {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 10rem;
+    margin-left: 25rem;
+}
+
+#DETRA::before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DETRA p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+
+#DEMAP {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: -32rem;
+    margin-left: 56.3rem;
+}
+
+#DEMAP::before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DEMAP p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+#DEINF {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 26rem;
+    margin-left: 56.3rem;
+}
+
+#DEINF::before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DEINF p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#NormasGerais2 {
+    background-color: #f3f3f3;
+    margin-left: 22rem;
+    width: 51.8rem;
+    height: 45rem;
+    margin-top: 20rem;
+    background-color: #f3f3f3;
+}
+
+#NormasGerais2 ul {
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d3091;
+    list-style: none;
+}
+
+#NormasGerais2 li {
+    margin-top: 1rem;
+}
+
+#NormasGerais2 ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #ff5e00
+        /* cor da bolinha */
+}
+
+#NormasGerais2 a {
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 340px;
+}
+/* ************************************************************************ Página Diretoria Juridica********************************************************************************* */
+
+#organogramaJUR ul {
+    margin-top: -2rem;
+    font-size: 2.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    list-style: none;
+
+}
+
+#organogramaJUR li {
+    margin-top: 0.5rem;
+    margin-left: -4rem;
+}
+
+#organogramaJUR ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #0f1a7b
+        /* cor da bolinha */
+}
+
+#DiretJUR {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 40px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 370px;
+    height: 103px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 20rem;
+    margin-left: 25rem;
+
+}
+
+#DiretJUR::before {
+    content: "";
+    position: absolute;
+    margin-top: -14px;
+    margin-left: -15px;
+    height: 128px;
+    width: 80px;
+    background: linear-gradient(90deg, #1a928c, #006d71);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DiretJUR p {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 12rem;
+    margin-top: 8rem;
+    padding-top: 5%;
+    font-size: 3rem;
+    padding-top: 0.5rem;
+}
+
+
+#DEJUT {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 8rem;
+    margin-left: 38rem;
+    padding-top: -8rem;
+}
+
+#DEJUT::before {
+    content: "";
+    position: absolute;
+    margin-top: -0.2rem;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DEJUT p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#DEJUC {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 8rem;
+    margin-left: 38rem;
+}
+
+#DEJUC::before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DEJUC p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#DECONS{
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 5rem;
+    margin-left: 38rem;
+}
+
+#DECONS::before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DECONS p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+
+#NormasGerais3 {
+    background-color: #f3f3f3;
+    margin-left: 22rem;
+    width: 51.8rem;
+    height: 45rem;
+    margin-top: 20rem;
+    background-color: #f3f3f3;
+}
+
+#NormasGerais3 ul {
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d3091;
+    list-style: none;
+}
+
+#NormasGerais3 li {
+    margin-top: 1rem;
+}
+
+#NormasGerais3 ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #ff5e00
+        /* cor da bolinha */
+}
+
+#NormasGerais3 a {
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 340px;
+}
+
+/* ************************************************************************ Página Diretoria de Edificações********************************************************************************* */
+
+#organogramaED ul {
+    margin-top: -2rem;
+    font-size: 2.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    list-style: none;
+
+}
+
+#organogramaED li {
+    margin-top: 0.5rem;
+    margin-left: -4rem;
+}
+
+#organogramaED ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #0f1a7b
+        /* cor da bolinha */
+}
+
+#DiretED {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 40px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 370px;
+    height: 103px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 20rem;
+    margin-left: 25rem;
+
+}
+
+#DiretED::before {
+    content: "";
+    position: absolute;
+    margin-top: -14px;
+    margin-left: -15px;
+    height: 128px;
+    width: 80px;
+    background: linear-gradient(90deg, #1a928c, #006d71);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DiretED p {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 9rem;
+    margin-top: 8rem;
+    padding-top: 5%;
+    font-size: 3rem;
+    padding-top: 0.5rem;
+}
+
+
+#DEDIF {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 8rem;
+    margin-left: 38rem;
+    padding-top: -8rem;
+}
+
+#DEDIF::before {
+    content: "";
+    position: absolute;
+    margin-top: -0.2rem;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DEDIF p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#DETEC {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 8rem;
+    margin-left: 38rem;
+}
+
+#DETEC::before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DETEC p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#NormasGerais3 {
+    background-color: #f3f3f3;
+    margin-left: 22rem;
+    width: 51.8rem;
+    height: 45rem;
+    margin-top: 20rem;
+    background-color: #f3f3f3;
+}
+
+#NormasGerais3 ul {
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d3091;
+    list-style: none;
+}
+
+#NormasGerais3 li {
+    margin-top: 1rem;
+}
+
+#NormasGerais3 ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #ff5e00
+        /* cor da bolinha */
+}
+
+#NormasGerais3 a {
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 340px;
+}
+
+
 /* ************************************************************************ Página principal********************************************************************************* */
+
 /*body*/
 .view3 {
     position: static;
