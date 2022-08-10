@@ -1,3 +1,7 @@
+html, body {
+    scroll-behavior: smooth;
+}
+
 header{
     position: relative;
     background-color: #09044c;
@@ -186,7 +190,7 @@ position: relative;
     width: 29.5em;
     height: 8.9em;*/
     }
-.container {
+.containerC {
     width: var(--containerSize);
     display: block;
     margin: 0 auto;
@@ -1086,18 +1090,18 @@ margin-top: 3px;
 /* ************************************************************************ Página principal********************************************************************************* */
 /*body*/
 
-.container-fluid {
+#containerFluid__cards {
     margin-left: 25rem;
     width: 144.0rem;
     height: 78.1rem;
     margin-top: 6.2rem;
     }
     
-    .container-fluid h2 {
+    #containerFluid__cards h2 {
         margin-top: -3rem;
     }
     
-    .col-sm {
+    #cardDir {
         width: 26.1rem;
         height: 36.8rem;
         margin-right: 3.2rem;
@@ -1105,23 +1109,23 @@ margin-top: 3px;
         box-shadow: 0 0 1em #cfc9c9bb;
     }
     
-    .col-sm img {
+    #cardDir img {
         margin-top: -4.5rem;
         margin-left: -6rem;
         width: 19.8rem;
         height: 19.8rem;
     }
 
-    .col-sm p{
+    #cardDir p{
         margin-bottom: 5rem;
         margin-top: 2.5rem;
     }
 
-    .col-sm a{
+    #cardDir a{
         font-size: 2rem;
     }
     
-    .col-auto {
+    .classeT {
         width: 25.6rem;
         height: 36.8rem;
         margin-top: 4.1rem;
@@ -1129,18 +1133,18 @@ margin-top: 3px;
         box-shadow: 0 0 1em #cfc9c9bb;
     }
     
-    .col-auto img {
+    .classeT img {
         margin-top: -4.5rem;
         margin-left: -6rem;
         width: 19.8rem;
         height: 19.8rem;
     }
-    .col-auto p {
+    .classeT p {
         margin-bottom: 4rem;
         margin-top: 2.5rem;
     }
 
-    .col-auto a{
+    .classeT a{
         font-size: 2rem;
     }
 
@@ -1175,90 +1179,6 @@ margin-top: 3px;
         margin-bottom: 80px;
         padding: 0 40rem;
     }
-    
-
-    #avisosCartao {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-gap: 90px;
-        margin-bottom: 150px;
-        margin-right: 40px;
-        margin-left: 40px
-    }
-    
-    #aCartao {
-        background-color: tomato;
-        background-image: url(../img/intra.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 266px;
-        width: 499;
-        /*margin-top: 4.1rem;
-        margin-left: 27px;
-        margin-right: 27px;
-        margin-bottom: 110px;*/
-    } 
-
-    #aCartao h2 {
-        color: #fff701;
-        font-size: 5rem;
-        text-align: center;
-        margin-top: 50px;
-        padding-bottom: 25px;
-    }
-
-    #aCartao h3 {
-        color: #fff701;
-        font-size: 2.5rem;
-        text-align: center;
-    }
-
-    #aCartao #pop {
-        color: #fff701;
-        font-size: 1.5rem;
-        text-align: center;
-    }
-
-    #aCartao a {
-        color: #FFFFFF;
-        text-decoration: underline;
-        font-size: 1.5rem;
-        margin-left: 42rem;
-        text-transform: uppercase;
-        font-weight: 500;
-    }
-
-    #aCartao #p1 {
-        color: #078dff;
-        font-size: 2rem;
-        padding-top: 12px;
-        padding-bottom: -12px;
-        margin-bottom: 0px;
-        font-weight: 600;
-    }
-
-    #aCartao #p2{
-        color: #078dff;
-        font-size: 1rem;
-    }
-    
-
-    .vejaTodos {
-        color: black;
-        text-decoration: none;
-        font-size: 20px;
-        margin-left: 1698px;
-    }
-
-    #imgObra {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .textoObra{
-        background-color: rgba(46, 130, 185, 0.5);
-    }
 
 
 
@@ -1274,6 +1194,9 @@ margin-top: 3px;
 
 
 
+
+
+/* ********************************************************** */
     
     #circulo {
     width: 7.1rem;
@@ -1358,7 +1281,7 @@ justify-content: center;
 width: 20rem;
 }
 
-footer{
+footer {
     position:absolute;
     z-index: -5;
     border-top: 1.2rem solid #FF4800;
