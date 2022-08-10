@@ -1,4 +1,4 @@
-html {
+html, body {
     scroll-behavior: smooth;
 }
 
@@ -122,7 +122,7 @@ header {
 }
 
 #wave {
-    margin-top: -9%;
+    margin-top: -6%;
     margin-left: -7.84rem;
     width: 108%;
 
@@ -1404,8 +1404,6 @@ header {
     padding-bottom: 2rem;
 }
 
-
-
 #DEMAP {
     position: relative;
     border-style: solid;
@@ -1891,6 +1889,180 @@ header {
 }
 
 #NormasGerais3 a {
+    font-weight: bold;
+    color: black;
+    font-size: 23px;
+    margin-top: 10px;
+    margin-left: 340px;
+}
+
+/* ************************************************************************ Página Diretoria de Urbanização********************************************************************************* */
+
+#organogramaDU ul {
+    margin-top: -2rem;
+    font-size: 2.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    list-style: none;
+
+}
+
+#organogramaDU li {
+    margin-top: 0.5rem;
+    margin-left: -4rem;
+}
+
+#organogramaDU ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 15px;
+    color: #0f1a7b
+        /* cor da bolinha */
+}
+
+#DiretU {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 40px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 370px;
+    height: 103px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 20rem;
+    margin-left: 25rem;
+
+}
+
+#DiretU::before {
+    content: "";
+    position: absolute;
+    margin-top: -14px;
+    margin-left: -15px;
+    height: 128px;
+    width: 80px;
+    background: linear-gradient(90deg, #1a928c, #006d71);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DiretU p {
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 9rem;
+    margin-top: 8rem;
+    padding-top: 5%;
+    font-size: 3rem;
+    padding-top: 0.5rem;
+}
+
+
+#DEINFRA {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 8rem;
+    margin-left: 38rem;
+    padding-top: -8rem;
+}
+
+#DEINFRA::before {
+    content: "";
+    position: absolute;
+    margin-top: -0.2rem;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DEINFRA p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#DPJ {
+    position: relative;
+    border-style: solid;
+    border-color: #e9e9e7 #dededc #d9dad7 white;
+    box-shadow: 52px 25px 28px -8px #e7e7e7;
+    border-radius: 50px;
+    width: 104px;
+    height: 30px;
+    background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
+    margin-top: 35rem;
+    margin-left: 38rem;
+}
+
+#DPJ::before {
+    content: "";
+    position: absolute;
+    margin-top: -3px;
+    margin-left: -8px;
+    height: 35px;
+    width: 18px;
+    background: linear-gradient(90deg, #6dbb36, #389438);
+    z-index: -1;
+    filter: blur (0px);
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+}
+
+#DPJ p {
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: -6px;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+#NormasGerais4 {
+    background-color: #f3f3f3;
+    margin-left: 22rem;
+    width: 51.8rem;
+    height: 45rem;
+    margin-top: 32rem;
+    background-color: #f3f3f3;
+}
+
+#NormasGerais4 ul {
+    font-size: 21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #2d3091;
+    list-style: none;
+}
+
+#NormasGerais4 li {
+    margin-top: 1rem;
+}
+
+#NormasGerais4 ul li::before {
+    content: '\2022';
+    font-size: 50px;
+    line-height: 24px;
+    vertical-align: middle;
+    margin: 0 10px;
+    color: #ff5e00
+        /* cor da bolinha */
+}
+
+#NormasGerais4 a {
     font-weight: bold;
     color: black;
     font-size: 23px;
