@@ -837,7 +837,6 @@ header {
 #NormasGerais {
     background-color: #f3f3f3;
     margin-left: 180px;
-    margin-top: 37px;
     width: 51.8rem;
     height: 45rem;
 }
@@ -852,7 +851,7 @@ header {
 }
 
 #NormasGerais ul {
-    margin-top: 53px;
+    margin-top: 2rem;
     font-size: 21px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #2d3091;
@@ -860,7 +859,7 @@ header {
 }
 
 #NormasGerais li {
-    margin-top: 5px;
+    margin-top: 0.5rem;
 }
 
 #NormasGerais ul li::before {
@@ -877,8 +876,6 @@ header {
     font-weight: bold;
     color: black;
     font-size: 2.3rem;
-    margin-top: 10rem;
-    margin-left: 340.rem;
 }
 
 /*Telefone da Se*/
@@ -1020,6 +1017,9 @@ header {
     margin: 0 10px;
     color: #0f1a7b
         /* cor da bolinha */
+
+
+        
 }
 #DiretFinanc {
     position: relative;
@@ -1152,9 +1152,13 @@ header {
         /* cor da bolinha */
 }
 
-#NormasGerais{
-    margin-top: 12rem;
-    margin-left: 20rem;
+#NormasGerais {
+    background-color: #f3f3f3;
+    margin-left: 22rem;
+    width: 51.8rem;
+    height: 45rem;
+    margin-top: 20rem;
+    background-color: #f3f3f3;
 }
 
 #NormasGerais ul {
@@ -1164,8 +1168,12 @@ header {
     list-style: none;
 }
 
-#NormasGerais li {
-    margin-top: 0.5rem;
+#NormasGerais li a {
+    text-align: initial;
+    font-size: 2.2rem;
+    margin-left: 0;
+    color: #2d3091;
+
 }
 
 #NormasGerais ul li::before {
@@ -1178,14 +1186,13 @@ header {
         /* cor da bolinha */
 }
 
-#NormasGerais a {
+#VJ {
     font-weight: bold;
     color: black;
     font-size: 23px;
-    margin-top: 10px;
+    margin-top: 5rem;
     margin-left: 340px;
 }
-
 
 /*Telefone da Se*/
 #TelefoneSessão {
@@ -1234,7 +1241,7 @@ header {
     margin-top: 3px;
 }
 
-/* ************************************************************************ Página diretoria financeira ********************************************************************************* */
+/* ************************************************************************ Página diretoria Administrativa********************************************************************************* */
 #organogramaADM ul {
     margin-top: -2rem;
     font-size: 2.1rem;
@@ -1297,7 +1304,6 @@ header {
     padding-top: 0.5rem;
 }
 
-
 #DEGEP {
     position: relative;
     border-style: solid;
@@ -1307,7 +1313,7 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 30px;
+    margin-top: 5rem;
     margin-left: 25rem;
     padding-top: -8rem;
 }
@@ -1343,7 +1349,7 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 14rem;
+    margin-top: 16rem;
     margin-left: 25rem;
 }
 
@@ -1378,8 +1384,9 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 10rem;
+    margin-top: 12rem;
     margin-left: 25rem;
+    margin-bottom: 5rem;
 }
 
 #DETRA::before {
@@ -1413,7 +1420,7 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: -32rem;
+    margin-top: -41rem;
     margin-left: 56.3rem;
 }
 
@@ -1449,7 +1456,7 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 26rem;
+    margin-top: 31rem;
     margin-left: 56.3rem;
 }
 
@@ -1475,43 +1482,7 @@ header {
     padding-bottom: 2rem;
 }
 
-#NormasGerais2 {
-    background-color: #f3f3f3;
-    margin-left: 22rem;
-    width: 51.8rem;
-    height: 45rem;
-    margin-top: 20rem;
-    background-color: #f3f3f3;
-}
 
-#NormasGerais2 ul {
-    font-size: 21px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #2d3091;
-    list-style: none;
-}
-
-#NormasGerais2 li {
-    margin-top: 1rem;
-}
-
-#NormasGerais2 ul li::before {
-    content: '\2022';
-    font-size: 50px;
-    line-height: 24px;
-    vertical-align: middle;
-    margin: 0 10px;
-    color: #ff5e00
-        /* cor da bolinha */
-}
-
-#NormasGerais2 a {
-    font-weight: bold;
-    color: black;
-    font-size: 23px;
-    margin-top: 10px;
-    margin-left: 340px;
-}
 /* ************************************************************************ Página Diretoria Juridica********************************************************************************* */
 
 #organogramaJUR ul {
@@ -1684,44 +1655,6 @@ header {
 }
 
 
-#NormasGerais3 {
-    background-color: #f3f3f3;
-    margin-left: 22rem;
-    width: 51.8rem;
-    height: 45rem;
-    margin-top: 20rem;
-    background-color: #f3f3f3;
-}
-
-#NormasGerais3 ul {
-    font-size: 21px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #2d3091;
-    list-style: none;
-}
-
-#NormasGerais3 li {
-    margin-top: 1rem;
-}
-
-#NormasGerais3 ul li::before {
-    content: '\2022';
-    font-size: 50px;
-    line-height: 24px;
-    vertical-align: middle;
-    margin: 0 10px;
-    color: #ff5e00
-        /* cor da bolinha */
-}
-
-#NormasGerais3 a {
-    font-weight: bold;
-    color: black;
-    font-size: 23px;
-    margin-top: 10px;
-    margin-left: 340px;
-}
-
 /* ************************************************************************ Página Diretoria de Edificações********************************************************************************* */
 
 #organogramaED ul {
@@ -1796,7 +1729,7 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 8rem;
+    margin-top: 6rem;
     margin-left: 38rem;
     padding-top: -8rem;
 }
@@ -1832,7 +1765,7 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 8rem;
+    margin-top: 13rem;
     margin-left: 38rem;
 }
 
@@ -1858,43 +1791,6 @@ header {
     padding-bottom: 2rem;
 }
 
-#NormasGerais3 {
-    background-color: #f3f3f3;
-    margin-left: 22rem;
-    width: 51.8rem;
-    height: 45rem;
-    margin-top: 20rem;
-    background-color: #f3f3f3;
-}
-
-#NormasGerais3 ul {
-    font-size: 21px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #2d3091;
-    list-style: none;
-}
-
-#NormasGerais3 li {
-    margin-top: 1rem;
-}
-
-#NormasGerais3 ul li::before {
-    content: '\2022';
-    font-size: 50px;
-    line-height: 24px;
-    vertical-align: middle;
-    margin: 0 10px;
-    color: #ff5e00
-        /* cor da bolinha */
-}
-
-#NormasGerais3 a {
-    font-weight: bold;
-    color: black;
-    font-size: 23px;
-    margin-top: 10px;
-    margin-left: 340px;
-}
 
 /* ************************************************************************ Página Diretoria de Urbanização********************************************************************************* */
 
@@ -1970,7 +1866,7 @@ header {
     width: 104px;
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
-    margin-top: 8rem;
+    margin-top: 4rem;
     margin-left: 38rem;
     padding-top: -8rem;
 }
@@ -2007,6 +1903,7 @@ header {
     height: 30px;
     background-image: linear-gradient(to right, #dfe0dd, #eaeae9, #fbfbfb);
     margin-top: 35rem;
+    margin-bottom: 25rem;
     margin-left: 38rem;
 }
 
@@ -2030,44 +1927,6 @@ header {
     margin-left: -6px;
     text-align: center;
     padding-bottom: 2rem;
-}
-
-#NormasGerais4 {
-    background-color: #f3f3f3;
-    margin-left: 22rem;
-    width: 51.8rem;
-    height: 45rem;
-    margin-top: 32rem;
-    background-color: #f3f3f3;
-}
-
-#NormasGerais4 ul {
-    font-size: 21px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #2d3091;
-    list-style: none;
-}
-
-#NormasGerais4 li {
-    margin-top: 1rem;
-}
-
-#NormasGerais4 ul li::before {
-    content: '\2022';
-    font-size: 50px;
-    line-height: 24px;
-    vertical-align: middle;
-    margin: 0 10px;
-    color: #ff5e00
-        /* cor da bolinha */
-}
-
-#NormasGerais4 a {
-    font-weight: bold;
-    color: black;
-    font-size: 23px;
-    margin-top: 10px;
-    margin-left: 340px;
 }
 
 
