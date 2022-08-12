@@ -1269,11 +1269,65 @@ margin-bottom: 80px;
 #noticiasCartao img {
     max-width: 140px;
     border-radius: 10px;
+    float: left;
 }
 
 #noticiaData {
-    background-color: #f3f4f8;
+    color: #6b6b6b;
+    background-color: #f3f4f7;
     border-radius: 40px;
+    margin-left: 164px;
+    margin-right: 205px;
+    padding: 2px 0 2px 0;
+}
+
+#nCartao h3 {
+    font-weight: 700;
+    text-align: initial;
+    margin-left: 156px;
+    color: #201f1f;
+}
+
+#nCartao h4  {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: justify;
+    margin-left: 156px;
+    color: #696969;
+}
+
+#nCartao {
+    margin-bottom: 40px;
+    margin-left: 40px;
+}
+
+#noticiaCol {
+    margin-right: -223px;
+    margin-left: -260px;
+}
+
+.noticiasVeja {
+    color: black;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 700;
+    margin-left: 152rem;
+}
+
+.noticiasVeja:hover {
+    color: #ff5e00;
+    text-decoration: none;
+}
+
+/* ***********************************TV********************************** */
+
+#tvNovacap {
+    background-color: #e9f7fd;
+    margin-top: 50px;
+}
+
+#tvNovacap img {
+    max-width: 65px;
 }
 
 
