@@ -1252,7 +1252,7 @@ margin-bottom: 80px;
     margin-bottom: 59px;
     padding-top: 17px;
     padding-bottom: 7px;
-    padding-left: 39px;
+    padding-left: 2.1%;
     padding-right: 807px;
 }
 
@@ -1324,12 +1324,81 @@ margin-bottom: 80px;
 #tvNovacap {
     background-color: #e9f7fd;
     margin-top: 50px;
+    height: 65rem;
 }
 
 #tvNovacap img {
     max-width: 65px;
 }
 
+#tvTitulo {
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+    padding-top: 35px;
+}
+
+#tvTitulo h1 {
+    padding: 10px;
+    color: #303393;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+#tvSub {
+    display: flex;
+    justify-content: center;
+    color: #696969;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: -35px;
+}
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web");
+
+.containerCarrossel {
+    margin-top: -70px;
+    width: 70vw;
+    max-width: 800px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    height: 100vh;
+    position: relative;
+    perspective: 1000px;
+    transform: translate3d(-50%, -50%, 600px);
+  /* ^^^ 600px for safari hack */
+    transform-style: preserve-3d;
+    display: flex;
+    align-items: center;
+}
+
+
+#tvVideo {
+    width: 700px;
+    height: 400px;
+}
+
+#tvVidTitulo {
+    font-weight: 900;
+    font-size: 21.5px;
+}
+
+#tvVidTitulo, #tvDescricao {
+    color: #078DFF;
+    font-family: "Titillium Web", sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.planet {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    cursor: pointer;
+}
+
+*/
 
 
 
@@ -1402,7 +1471,7 @@ margin-bottom: -23rem;
 #ouv {
     width: 46.4rem;
     height: 56.4rem;
-    
+    margin-top: -134px;
 }
 
 #cluster__1 {
