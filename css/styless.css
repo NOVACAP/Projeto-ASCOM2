@@ -1,10 +1,12 @@
-html, body {
+html,
+body {
     scroll-behavior: smooth;
 }
 
 body {
     overflow-x: hidden;
 }
+
 
 .trasso2 {
     position: relative;
@@ -171,18 +173,120 @@ header {
     margin-left: 8px;
 }
 
+    .dropdown-submenu {
+        position: relative;
+    }
+    
+    .dropdown-submenu>a:after {
+        content: "\f0da";
+        float: right;
+        border: none;
+        font-family: 'FontAwesome';
+    }
+    
+    .dropdown-submenu>.dropdown-menu {
+        top: 0;
+        left: 100%;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ff48005e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a{
+    margin-bottom: 2rem;
+}
+.dropdown-content a:hover {
+    background-color: #ff480085;
+}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*Dropdown*/
+.sub-menu-1{
+    display: none;
+}
+
+nav ul li:hover .sub-menu-1{
+display: block;
+position: absolute;
+background-color:#ff480085;;
+margin-top: 0.01rem;
+margin-left: -2rem;
+}
+
+nav ul li:hover .sub-menu-1 ul{
+    display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li{
+    width: 150px;
+    text-align: center;
+    border-radius: 10px;
+    transition: 2.1s;
+}
+
+nav ul li:hover .sub-menu-1 ul li:hover{
+    background-color: #FF4800;
+}
+
+.sub-menu-2{
+    display: none;
+}
+
+.hover-sub:hover .sub-menu-2{
+    display: block;
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 15rem;
+    background-color:#ff480085;
+}
+
+
+.sub-menu-3{
+    display: none;
+}
+
+.hover-sub:hover .sub-menu-3{
+    display: block;
+    position: absolute;
+    margin-top: -5rem;
+    margin-left: 15rem;
+    background-color:#ff480085;
+}
+
 /*menu responsivo*/
 
 #menu a.dropdown-arrow:after {
     content: "\25BE";
-    margin-left: 5px;
 }
 
 /*Destaque do menu*/
 
 #menu a {
     margin-top: 5px;
-    height: 35px;
+    height:45px;
     -webkit-transition: box-shadow 0.2s;
     -moz-transition: box-shadow 0.2s;
     transition: box-shadow 0.2s;
@@ -198,7 +302,8 @@ header {
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
     transition: transform 0.2s, opacity 0.2s;
     border-radius: 20px;
-    height: 35px;
+    height: 45px;
+    margin-top: 0 auto;
 }
 
 #menu a:hover::after {
@@ -207,14 +312,16 @@ header {
     -ms-transform: scale(0.85);
     transform: scale(0.85);
     opacity: 0.9;
-    height: 35px;
+    height: 45px;
+    margin-top: 0 auto;
 }
 
 #menu a:hover {
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
     color: #fff;
     border-radius: 20px;
-    height: 35px;
+    height: 45px;
+    margin-top: 0 auto;
 }
 
 #menu input {
@@ -1019,8 +1126,9 @@ header {
         /* cor da bolinha */
 
 
-        
+
 }
+
 #DiretFinanc {
     position: relative;
     border-style: solid;
@@ -1618,7 +1726,7 @@ header {
     padding-bottom: 2rem;
 }
 
-#DECONS{
+#DECONS {
     position: relative;
     border-style: solid;
     border-color: #e9e9e7 #dededc #d9dad7 white;
@@ -1944,7 +2052,8 @@ header {
     margin-left: 0;
     margin-right: 0;
 
-} 
+}
+
 .container-fluid {
     margin-left: 25rem;
     width: 144.0rem;
@@ -2072,7 +2181,7 @@ header {
 
 /*footer*/
 
-#waveFooter{
+#waveFooter {
     width: 100%;
     margin-top: -0.2rem;
     margin-left: -2rem;
@@ -2158,6 +2267,7 @@ header {
     background: radial-gradient(circle closest-side,
             rgb(250, 250, 250) 0%, rgb(255, 255, 255) 74%, #009641 76%, #009641 98%, rgba(255, 240, 240, 0) 100%);
 }
+
 .linha-vertical1 {
     margin-left: 5rem;
     margin-top: 6rem;
