@@ -1149,6 +1149,59 @@ margin-top: 3px;
     font-size: 2rem;
 }
 
+#circulo {
+    width: 7.1rem;
+    height: 7.1rem;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0.5rem;
+    margin-left: 0.7rem;
+    }
+    
+    #circulo img{
+        margin-top: -6.2rem;
+    }
+
+    #AP {
+        background-image: linear-gradient(to right, #201f71, #004fff);
+        color: white;
+    }
+    
+    #DaNovacap {
+        background-image: url("../img/Novacap65.png");
+        background-repeat: round;
+    }
+    
+    .button {
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    background: #95cd01;
+    border-radius: 0.8rem;
+    padding: 1.0rem 4.9rem 1.0rem 1.5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    font-style: normal;
+    margin-top: 17rem;
+    margin-left: 2rem;
+    width: 19.0rem;
+    height: 4.8rem;
+    }
+    
+    .button img{
+        width: 11rem;
+        margin-top: -11.2rem;
+        margin-left: 8rem;
+    }
+
+    .button p{
+    color: #3a4d07;
+    font-size: 0.6rem;
+    margin-top: -9rem;
+        }
+
+
+
 /* ****************************AVISOS*********************** */
 
 .Avisos h1 {
@@ -1405,58 +1458,6 @@ margin-bottom: 80px;
 
 
 /* ********************************************************** */
-    
-    #circulo {
-    width: 7.1rem;
-    height: 7.1rem;
-    border-radius: 50%;
-    background-color: rgb(255, 255, 255);
-    margin-top: 0.5rem;
-    margin-left: 0.7rem;
-    }
-    
-    #circulo img{
-        margin-top: -6.2rem;
-    }
-
-    #AP {
-        background-image: linear-gradient(to right, #201f71, #004fff);
-        color: white;
-    }
-    
-    #DaNovacap {
-        background-image: url("../img/Novacap65.png");
-        background-repeat: round;
-    }
-    
-    .button {
-    position: relative;
-    cursor: pointer;
-    display: inline-block;
-    background: #95cd01;
-    border-radius: 0.8rem;
-    padding: 1.0rem 4.9rem 1.0rem 1.5rem;
-    color: #fff;
-    font-size: 1.6rem;
-    font-style: normal;
-    margin-top: 17rem;
-    margin-left: 2rem;
-    width: 19.0rem;
-    height: 4.8rem;
-    }
-    
-    .button img{
-        width: 11rem;
-        margin-top: -11.2rem;
-        margin-left: 8rem;
-    }
-
-    .button p{
-    color: #3a4d07;
-    font-size: 0.6rem;
-    margin-top: -9rem;
-        }
-
 
 /*footer*/
 
@@ -1468,6 +1469,14 @@ padding-right: 12.0rem;
 margin-bottom: -23rem;
 }
 
+.ouvidoria {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-right: 12.0rem;
+    margin-bottom: -23rem;
+}
+
 #ouv {
     width: 46.4rem;
     height: 56.4rem;
@@ -1475,18 +1484,19 @@ margin-bottom: -23rem;
 }
 
 #cluster__1 {
-display: flex;
-align-items: center;
-justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 #cluster__2 {
-display: flex;
-align-self: center;
-justify-content: center;
+    display: flex;
+    align-self: center;
+    justify-content: center;
 }
 
 #icOuvidoria img {
-width: 20rem;
+    width: 20rem;
 }
 
 footer {
@@ -1496,7 +1506,6 @@ footer {
     height: 18.1rem;
     background-color: #efefef;
     width: 100%;
-    background-image: url("../img/footer.jpg");
     background-repeat: no-repeat;
     background-position: center bottom;
 }
