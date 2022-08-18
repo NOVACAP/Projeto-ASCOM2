@@ -226,10 +226,10 @@ li.dropdown {
 /*Dropdown*/
 .sub-menu-1{
     display: none;
-   /*  height: auto;
+    height: auto;
     max-height: 50rem;
     overflow-x:hidden;
-    border-radius: 1rem; */
+    width: 300px;
     
 }
 ::-webkit-scrollbar {
