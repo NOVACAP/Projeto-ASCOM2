@@ -1,5 +1,12 @@
-
+<<<<<<< HEAD
 html, body {
+    scroll-behavior: smooth;
+}
+
+header{
+=======
+html,
+body {
     scroll-behavior: smooth;
 }
 
@@ -56,6 +63,7 @@ body {
 }
 
 header {
+>>>>>>> novo
     position: relative;
     background-color: #09044c;
     height: 61px;
@@ -223,35 +231,35 @@ li.dropdown {
     display: block;
 }
 
-    /*Dropdown*/
-    .sub-menu-1{
-        display: none;
-        height: auto;
-        max-height: 50rem;
-        overflow-x:hidden;
-        width: 300px;
-        
-    }
-    ::-webkit-scrollbar {
-        width: 20px;
-    }
+/*Dropdown*/
+.sub-menu-1{
+    display: none;
+    height: auto;
+    max-height: 50rem;
+    overflow-x:hidden;
+    width: 300px;
     
-    /* Track */
-    ::-webkit-scrollbar-track {
-        box-shadow: inset 0 0 5px rgb(161, 158, 158); 
-        border-radius: 10px;
-    }
-    
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: rgba(112, 109, 109, 0.315); 
-        border-radius: 10px;
-    }
-    
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: #9b9696; 
-    }
+}
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(161, 158, 158); 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(112, 109, 109, 0.315); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #9b9696; 
+  }
 
 nav ul li:hover .sub-menu-1{
 display: block;
@@ -383,10 +391,14 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     /*margin-left: -120.2em;
     width: 29.5em;
     height: 8.9em;*/
+<<<<<<< HEAD
+    }
+.containerC {
+=======
 }
 
 .container {
-
+>>>>>>> novo
     width: var(--containerSize);
     display: block;
     margin: 0 auto;
@@ -2084,7 +2096,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     margin-left: 25rem;
     width: 144.0rem;
     height: 78.1rem;
-
+<<<<<<< HEAD
     margin-top: 6.2rem;
 }
 
@@ -2092,29 +2104,57 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     margin-top: -3rem;
 }
 
+#cardDir {
+=======
+    margin-top: 16.2rem;
+}
 
+.container-fluid h2 {
+    margin-top: -3rem;
+}
+
+.col-sm {
+>>>>>>> novo
+    width: 26.1rem;
+    height: 36.8rem;
+    margin-right: 3.2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1em #cfc9c9bb;
+}
+
+<<<<<<< HEAD
+#cardDir img {
+=======
 .col-sm img {
-
+>>>>>>> novo
     margin-top: -4.5rem;
     margin-left: -6rem;
     width: 19.8rem;
     height: 19.8rem;
 }
 
+<<<<<<< HEAD
+#cardDir p{
+=======
 .col-sm p {
+>>>>>>> novo
     margin-bottom: 5rem;
     margin-top: 2.5rem;
 }
 
+<<<<<<< HEAD
 #cardDir a{
     font-size: 2rem;
 }
 
+.classeT {
+=======
 .col-sm a {
     font-size: 2rem;
 }
 
 .col-auto {
+>>>>>>> novo
     width: 25.6rem;
     height: 36.8rem;
     margin-top: 4.1rem;
@@ -2122,21 +2162,31 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     box-shadow: 0 0 1em #cfc9c9bb;
 }
 
-
-
-    .col-auto img {
+<<<<<<< HEAD
+.classeT img {
+=======
+.col-auto img {
+>>>>>>> novo
     margin-top: -4.5rem;
     margin-left: -6rem;
     width: 19.8rem;
     height: 19.8rem;
 }
 
+<<<<<<< HEAD
 .classeT p {
+=======
+.col-auto p {
+>>>>>>> novo
     margin-bottom: 4rem;
     margin-top: 2.5rem;
 }
 
+<<<<<<< HEAD
 .classeT a{
+=======
+.col-auto a {
+>>>>>>> novo
     font-size: 2rem;
 }
 
@@ -2191,9 +2241,13 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     margin-top: -9rem;
 }
 
+<<<<<<< HEAD
+
 
 /* ****************************AVISOS*********************** */
 
+=======
+>>>>>>> novo
 .Avisos h1 {
     margin-top: 8.0rem;
     margin-left: 60rem;
@@ -2203,6 +2257,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 .Avisos p {
+<<<<<<< HEAD
 margin-top: 2.0rem;
 margin-left: 70.5rem;
 font-size: 2.7rem;
@@ -2219,9 +2274,15 @@ margin-bottom: 80px;
 }
 
 .noticias p {
+=======
+>>>>>>> novo
     margin-top: 2.0rem;
     font-size: 2.7rem;
     color: #696969;
+<<<<<<< HEAD
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 0 40rem;
 }
 
 #containerAviso {
@@ -2442,7 +2503,12 @@ margin-bottom: 80px;
 
 
 
+
+
 /* ********************************************************** */
+=======
+}
+>>>>>>> novo
 
 /*footer*/
 
@@ -2471,6 +2537,11 @@ margin-bottom: 80px;
 #ouv {
     width: 46.4rem;
     height: 56.4rem;
+<<<<<<< HEAD
+    margin-top: -134px;
+=======
+
+>>>>>>> novo
 }
 
 #cluster__1 {
@@ -2489,6 +2560,10 @@ margin-bottom: 80px;
     width: 20rem;
 }
 
+<<<<<<< HEAD
+footer {
+    position:absolute;
+=======
 #pontilhado {
     position: static;
     border: dotted #616161;
@@ -2571,6 +2646,7 @@ margin-bottom: 80px;
 footer {
     position: sticky;
     top: 100%;
+>>>>>>> novo
     z-index: -5;
     bottom: 150px;
     width: 100%;
@@ -2594,8 +2670,13 @@ footer h1 {
     margin-left: 72.5em;
     margin-top: 1.2em;*/
     position: relative;
+<<<<<<< HEAD
+    max-width: 100%;
+    margin-left: 44.5%;
+=======
     max-width: 15%;
     margin-left: 42%;
+>>>>>>> novo
     margin-top: 1.2em;
 
 }
@@ -2759,6 +2840,7 @@ width: 100%;
 }
 
 li {
+<<<<<<< HEAD
 margin-left: 13px;
 cursor: pointer;
 }
@@ -2768,7 +2850,10 @@ cursor: pointer;
     float: right !important;
     border-radius: 50px !important;
     border: 2px solid #c9deec52 !important;
+}
+
+=======
     margin-left: 13px;
     cursor: pointer;
 }
-
+>>>>>>> novo
