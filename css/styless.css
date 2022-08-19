@@ -124,7 +124,7 @@ header {
 }
 
 #wave {
-    margin-top: -7%;
+    margin-top: -3.2%;
     margin-left: -10rem;
     width: 110%;
 
@@ -225,11 +225,14 @@ li.dropdown {
 
     /*Dropdown*/
     .sub-menu-1{
+        scrollbar-width: none;
+        width: 15rem;
+        height: 600px;
+        overflow-y: scroll;
         display: none;
         height: auto;
         max-height: 50rem;
-        overflow-x:hidden;
-        width: 300px;
+        overflow-x: hidden;
         
     }
     ::-webkit-scrollbar {
@@ -281,11 +284,10 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 .hover-sub:hover .sub-menu-2{
-    display: block;
+    display:contents;
     position: absolute;
     margin-top: -5rem;
-    margin-left: 15rem;
-    background-color:#ff480085;
+
 }
 
 
@@ -294,11 +296,8 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 .hover-sub:hover .sub-menu-3{
-    display: block;
+    display:contents;
     position: absolute;
-    margin-top: -5rem;
-    margin-left: 15rem;
-    background-color:#ff480085;
 }
 
 /*menu responsivo*/
@@ -2075,17 +2074,13 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     margin-top: -33px;
     text-align: center;
     z-index: -1;
-    margin-left: 0;
-    margin-right: 0;
-
 }
 
 #containerFluid__cards {
     margin-left: 25rem;
     width: 144.0rem;
     height: 78.1rem;
-
-    margin-top: 6.2rem;
+    margin-top: 13.2rem;
 }
 
 #containerFluid__cards h2 {
@@ -2093,15 +2088,22 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 }
 
 
-.col-sm img {
+#cardDir {
+    width: 26.1rem;
+    height: 36.8rem;
+    margin-right: 3.2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1em #cfc9c9bb;
+}
 
+#cardDir img {
     margin-top: -4.5rem;
     margin-left: -6rem;
     width: 19.8rem;
     height: 19.8rem;
 }
 
-.col-sm p {
+#cardDir p{
     margin-bottom: 5rem;
     margin-top: 2.5rem;
 }
@@ -2110,11 +2112,11 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     font-size: 2rem;
 }
 
-.col-sm a {
+.cardDir a {
     font-size: 2rem;
 }
 
-.col-auto {
+.classeT {
     width: 25.6rem;
     height: 36.8rem;
     margin-top: 4.1rem;
@@ -2122,13 +2124,11 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     box-shadow: 0 0 1em #cfc9c9bb;
 }
 
-
-
-    .col-auto img {
-    margin-top: -4.5rem;
-    margin-left: -6rem;
-    width: 19.8rem;
-    height: 19.8rem;
+.classeT img {
+margin-top: -4.5rem;
+margin-left: -6rem;
+width: 19.8rem;
+height: 19.8rem;
 }
 
 .classeT p {
@@ -2219,10 +2219,14 @@ margin-bottom: 80px;
 }
 
 .noticias p {
-    margin-top: 2.0rem;
+    margin-top: 2rem;
     font-size: 2.7rem;
     color: #696969;
+    text-align: center;
+    margin-bottom: 80px;
+    padding: 0 40rem;
 }
+
 
 #containerAviso {
     margin-left: 8.1rem;
@@ -2287,8 +2291,8 @@ margin-bottom: 80px;
     color: white;
     text-align: left;
     margin-left: 140px;
-    margin-right: 140px;
-    margin-top: -145px;
+    margin-right: 138px;
+    margin-top: -183px;
     margin-bottom: 59px;
     padding-top: 17px;
     padding-bottom: 7px;
@@ -2446,10 +2450,14 @@ margin-bottom: 80px;
 
 /*footer*/
 
+.waveFooter {
+    width: 101vw;
+    margin-left: -27px;
+}
+
 #waveFooter {
-    width: 100%;
-    margin-top: -0.2rem;
-    margin-left: -2rem;
+    width: 101vw;
+    margin-left: -27px;
 }
 
 #ouvidoria {
