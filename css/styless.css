@@ -297,14 +297,13 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 
 }
 
-
 .sub-menu-3{
     display: none;
 }
 
 .hover-sub:hover .sub-menu-3{
     display:contents;
-    position: absolute;
+    position:static;
 }
 
 /*menu responsivo*/
