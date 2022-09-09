@@ -124,10 +124,10 @@ header {
 }
 
 #wave {
-    position:absolute;
-    margin-top: 6%;
-    margin-left: -110rem;
-    width: 110%;
+    position: absolute;
+    margin-top: -40.5%;
+    margin-left: -11rem;
+    width: 111%;
 
 }
 
@@ -153,10 +153,7 @@ header {
     list-style: none
 }
 
-#menu ul {
-    width: 100%;
 
-}
 
 #menu li {
     float: left;
@@ -174,137 +171,8 @@ header {
     margin-left: 8px;
 }
 
-    .dropdown-submenu {
-        position: relative;
-    }
-    
-    .dropdown-submenu>a:after {
-        content: "\f0da";
-        float: right;
-        border: none;
-        font-family: 'FontAwesome';
-    }
-    
-    .dropdown-submenu>.dropdown-menu {
-        top: 0;
-        left: 100%;
-        margin-top: 0px;
-        margin-left: 0px;
-    }
-
-li.dropdown {
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ff48005e;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.dropdown-content a{
-    margin-bottom: 2rem;
-}
-.dropdown-content a:hover {
-    background-color: #ff480085;
-}
 
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-::-webkit-scrollbar {
-    width: 20px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px rgb(161, 158, 158); 
-    border-radius: 10px;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-    background: rgba(112, 109, 109, 0.315); 
-    border-radius: 10px;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-    background: #9b9696; 
-}
-
-    /*Dropdown*/
-    .sub-menu-1::-webkit-scrollbar {
-        display: none;
-        }
-
-    .sub-menu-1{
-        scrollbar-width: none;
-        width: 15rem;
-        height: 600px;
-        overflow-y: scroll;
-        display: none;
-        height: auto;
-        max-height: 50rem;
-        overflow-x: hidden;
-        
-    }
-
-nav ul li:hover .sub-menu-1{
-display: block;
-position: absolute;
-background-color:#ff480085;;
-margin-top: 0.01rem;
-margin-left: -2rem;
-}
-
-nav ul li:hover .sub-menu-1 ul{
-    display: block;
-}
-
-nav ul li:hover .sub-menu-1 ul li{
-    width: 150px;
-    text-align: center;
-    border-radius: 10px;
-    transition: 2.1s;
-}
-
-nav ul li:hover .sub-menu-1 ul li:hover{
-    background-color: #FF4800;
-}
-
-.sub-menu-2{
-    display: none;
-}
-
-.hover-sub:hover .sub-menu-2{
-    display:contents;
-    position: absolute;
-    margin-top: -5rem;
-
-}
-
-.sub-menu-3{
-    display: none;
-}
-
-.hover-sub:hover .sub-menu-3{
-    display:contents;
-    position:static;
-}
 
 /*menu responsivo*/
 
@@ -315,8 +183,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
 /*Destaque do menu*/
 
 #menu a {
-    margin-top: 5px;
-    height:45px;
+    height:30px;
     -webkit-transition: box-shadow 0.2s;
     -moz-transition: box-shadow 0.2s;
     transition: box-shadow 0.2s;
@@ -332,8 +199,10 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     -moz-transition: -moz-transform 0.2s, opacity 0.2s;
     transition: transform 0.2s, opacity 0.2s;
     border-radius: 20px;
-    height: 45px;
+    height: 30px;
     margin-top: 0 auto;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
+
 }
 
 #menu a:hover::after {
@@ -342,16 +211,20 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     -ms-transform: scale(0.85);
     transform: scale(0.85);
     opacity: 0.9;
-    height: 45px;
+    height: 30px;
     margin-top: 0 auto;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
+    
+
 }
 
 #menu a:hover {
     box-shadow: 0 0 0 3px rgba(255, 255, 255, 1);
     color: #fff;
     border-radius: 20px;
-    height: 45px;
+    height: 30px;
     margin-top: 0 auto;
+
 }
 
 #menu input {
@@ -362,6 +235,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     width: 100%;
     opacity: 0;
     cursor: pointer;
+
 }
 
 #menu label {
@@ -370,6 +244,7 @@ nav ul li:hover .sub-menu-1 ul li:hover{
     text-align: center;
     position: absolute;
     left: 35px;
+    
 }
 
 #menu label:before {
@@ -2296,7 +2171,7 @@ margin-bottom: 80px;
     text-align: left;
     margin-left: 140px;
     margin-right: 138px;
-    margin-top: -183px;
+    margin-top: -144px;
     margin-bottom: 59px;
     padding-top: 17px;
     padding-bottom: 7px;
