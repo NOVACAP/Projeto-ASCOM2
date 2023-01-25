@@ -1,0 +1,3 @@
+de acordo com o Victor, o problema da exibição estar bugada pode ser por causa do bootstrap,
+o arquivo css está separado para melhor edição, recomendo comentar o css do outro slider para evitar conflito com o nome das classes.
+caso queiram testar o slider puro, abrir essa pasta com o live server do vscode

@@ -1,0 +1,3 @@
+assets do site vetorizados e bem feitos(logo da ouvidoria está todo torto)
+definir e mandar vetorizado o logo do site
+definir como ficara a versao responsiva do site(celulares e tablets)

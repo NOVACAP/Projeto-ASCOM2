@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste carrossel</title>
+</head>
+
+<!-- CSS -->
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+    background: #eee;
+    user-select: none;
+}
+
+/* remove os indicadores de posição */
+[type=radio]{
+    display: none;
+}
+
+#slider{
+    height: 35vw;
+    position: relative;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+#slider label{
+    margin: auto;
+    width: 60%;
+    height: 100%;
+    border-radius: 4px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+    transition: transform 0.4s ease;
+}
+
+/* posição do slider esquerdo */
+#s1:checked ~ #slide2, 
+#s2:checked ~ #slide3,
+#s3:checked ~ #slide1{
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, .37);
+    transform: translate3d(-55%,0,-200px);
+}
+
+/*posição do slider central */
+#s1:checked ~ #slide1, 
+#s2:checked ~ #slide2,
+#s3:checked ~ #slide3{
+    box-shadow: 0 13px 25px 0 rgba(0, 0, 0, .3), 0 11px 7px 0 rgba(0, 0, 0, .19);
+    transform: translate3d(0,0,0);
+}
+
+/*posição do slider direito */
+#s1:checked ~ #slide3, 
+#s2:checked ~ #slide1,
+#s3:checked ~ #slide2{
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, .3), 0 2px 2px 0 rgba(0, 0, 0, .2);
+    transform: translate3d(45%,0,-100px);
+}
+
+
+
+
+
+</style>
+
+<body>
+<br>
+<!-- texto do topo -->
+<h1 style="text-align: center; font-family: monospace; font-size: 42px;">3D Carousel Slider</h1>
+<br><br>
+
+
+<!-- definindo os slides -->
+<section id="slider">
+    <input type="radio" name="slider" id="s1">
+        <input type="radio" name="slider" id="s2" checked>
+            <input type="radio" name="slider" id="s3">
+
+
+<!-- adicionando os slides -->
+<label for="s1" id="slide1">
+    <img src="/assets/img/caminhao.png" height="100%" width="100%">
+    <h3>teste</h3>
+</label>
+
+<label for="s2" id="slide2">
+    <img src="/assets/img/avisoLegal.png" height="100%" width="100%">
+    <h3>teste</h3>
+</label>
+
+<label for="s3" id="slide3">
+    <img src="/assets/img/intra.png" height="100%" width="100%">
+    <h3>teste</h3>
+</label>
+
+
+</section>    
+
+</body>
+</html>
