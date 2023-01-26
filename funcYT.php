@@ -16,6 +16,7 @@ foreach($my_posts as $post) {
 <div class="gallery">
     <div class="gallery-container">
         <iframe class="<?php echo "gallery-item-" .$i;?> <?php echo "gallery-item" ?>" src="<?php recebe($link);?>" data-index="<?php echo $i;?>"></iframe>
+        <h3 id="tvVidTitulo"><?php echo $post->post_title;?></h3>
     </div>
     <?php } ?>
     <div class="gallery-controls"></div>
