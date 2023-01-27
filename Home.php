@@ -19,11 +19,11 @@ $query = new WP_Query($args);
 if ($query->have_posts()):
     while ($query->have_posts()):
         $query->the_post();
-?>
-<div class="imagem-banner">
-    <?php the_post_thumbnail(); ?>
-</div>
-<?php
+        ?>
+        <div class="imagem-banner">
+            <?php the_post_thumbnail(); ?>
+        </div>
+        <?php
     endwhile;
 endif;
 ?>
@@ -161,7 +161,7 @@ endif;
 
                 $my_posts = get_posts($args);
                 foreach ($my_posts as $post) { ?>
-                <?php the_post_thumbnail();
+                    <?php the_post_thumbnail();
                 } ?>
             </div>
         </div>
@@ -205,16 +205,16 @@ endif;
             $my_posts = get_posts($args);
             foreach ($my_posts as $post) { ?>
 
-            <!-|Imagem aviso->
-                <div class="imagem-aviso">
-                    <?php the_post_thumbnail(); ?>
-                </div>
-                <!-Título do aviso->
-                    <p id="p1">
-                        <?php echo $post->post_title; ?>
-                    </p>
+                <!-|Imagem aviso->
+                    <div class="imagem-aviso">
+                        <?php the_post_thumbnail(); ?>
+                    </div>
+                    <!-Título do aviso->
+                        <p id="p1">
+                            <?php echo $post->post_title; ?>
+                        </p>
+            </div>
         </div>
-    </div>
     <?php } ?>
     </div>
     <a href="#" class="vejaTodos">Veja todos >>></a>
@@ -262,26 +262,26 @@ endif;
                 <?php $my_posts = get_posts($args);
                 foreach ($my_posts as $post) { ?>
 
-                <div class="carousel-item <?php $i++;
+                    <div class="carousel-item <?php $i++;
                     if ($i == 1) {
                         echo 'active';
                     } ?>">
-                    <?php the_post_thumbnail(); ?>
-                    <div class="carousel-title-box"></div>
-                    <div>
-                        <h3 class="tituloCarousel">
-                            <?php
-                    echo $post->post_title;
-                            ?>
-                        </h3>
+                        <?php the_post_thumbnail(); ?>
+                        <div class="carousel-title-box"></div>
+                        <div>
+                            <h3 class="tituloCarousel">
+                                <?php
+                                echo $post->post_title;
+                                ?>
+                            </h3>
 
-                        <h5 class="infoCarousel">
-                            <?php
-                    echo $post->post_excerpt;
-                            ?>
-                        </h5>
+                            <h5 class="infoCarousel">
+                                <?php
+                                echo $post->post_excerpt;
+                                ?>
+                            </h5>
+                        </div>
                     </div>
-                </div>
                 <?php } ?>
 
 
@@ -315,23 +315,23 @@ endif;
 
         $my_posts = get_posts($args);
         foreach ($my_posts as $post) { ?>
-        <!-- blocos -->
-        <section id="noticiasCartao" class="container text-center containerC">
-            <div id="noticiaCol" class="row row-cols-3">
-                <div class="col" id="nCartao">
-                    <?php the_post_thumbnail(); ?>
-                    <p id="noticiaData">
-                        <?php echo get_the_date(); ?>
-                    </p>
-                    <h3>
-                        <?php echo $post->post_title; ?>
-                    </h3>
-                    <h4 class="h4">
-                        <?php echo $post->post_excerpt; ?>
-                    </h4>
+            <!-- blocos -->
+            <section id="noticiasCartao" class="container text-center containerC">
+                <div id="noticiaCol" class="row row-cols-3">
+                    <div class="col" id="nCartao">
+                        <?php the_post_thumbnail(); ?>
+                        <p id="noticiaData">
+                            <?php echo get_the_date(); ?>
+                        </p>
+                        <h3>
+                            <?php echo $post->post_title; ?>
+                        </h3>
+                        <h4 class="h4">
+                            <?php echo $post->post_excerpt; ?>
+                        </h4>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
         <?php } ?>
         <!-- fim dos blocos -->
         <a class="noticiasVeja" href="#">Veja todos >>></a>
@@ -340,7 +340,8 @@ endif;
     <!-- TV NOVACAP -->
     <section id="tvNovacap">
         <div id="tvTitulo">
-            <img id="TvImg" src="<?php echo get_stylesheet_directory_uri() . '/assets/img/TV.png' ?>" alt="Logo TV NOVACAP">
+            <img id="TvImg" src="<?php echo get_stylesheet_directory_uri() . '/assets/img/TV.png' ?>"
+                alt="Logo TV NOVACAP">
             <h1>NOVACAP</h1>
             <div id="travessão-ps-1">
                 <h2 class="travessão-1"></h2>
@@ -359,4 +360,4 @@ endif;
 
     <?php
     require_once 'footer.php';
-    ?>
+    ?> 

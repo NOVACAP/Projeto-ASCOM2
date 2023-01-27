@@ -15,7 +15,7 @@ foreach ($my_posts as $post) {
     <?php $link = get_post_meta($post->ID, 'link', true); ?>
     <div class="gallery">
         <div class="gallery-container">
-            <iframe class="<?php echo "gallery-item-" . $i; ?>                     <?php echo "gallery-item" ?>"
+            <iframe class="<?php echo "gallery-item-" . $i; ?>                             <?php echo "gallery-item" ?>"
                 src="<?php recebe($link); ?>" data-index="<?php echo $i; ?>"></iframe>
         </div>
         <div class="gallery-controls"></div>
