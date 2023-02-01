@@ -20,7 +20,7 @@ img.custom-logo {
     margin-top: -1px;
     text-align: center;
     z-index: -2;
-    margin-left: -183px;
+    margin-left: -168px;
     margin-right: 0px;
 }
 
@@ -2389,7 +2389,7 @@ header {
 }
 
 #nCartao h3 {
-    width: 390px;
+    width: 384px;
     height: 24px;
     overflow: hidden;
     position: absolute;
@@ -2676,7 +2676,7 @@ header {
 }
 
 #tvVidTitulo1 {
-    color: #078DFF;
+    /* color: #078DFF;
     font-family: "Coolvetica Rg";
     letter-spacing: 2px;
     text-align: left;
@@ -2686,12 +2686,12 @@ header {
     font-size: 16px;
     width: 231px;
     margin-top: 37px;
-    margin-left: -40p
+    margin-left: -40p */
 }
 
-#tvVidTitulo,
-#tvDescricao {
-    color: #078DFF;
+.tvVidTitulo,
+.tvDescricao {
+   /* color: #078DFF;
     font-family: "Coolvetica Rg";
     letter-spacing: 2px;
     text-align: left;
@@ -2701,7 +2701,7 @@ header {
     font-size: 16px;
     width: 231px;
     margin-top: 37px;
-    margin-left: -40px;
+    margin-left: -40px;  */
 }
 
 
@@ -3254,6 +3254,7 @@ li {
         height: 338px;
     }
 
+
     .containerCarrossel {
         max-width: 614px;
         left: 51%;
@@ -3277,6 +3278,14 @@ li {
         width: 632px;
     }
 
+    #tvTitulo img {
+        margin-right: 55px;
+    }
+
+    #TvImg {
+        width: 120px;
+    }
+
     .imagem-aviso {
         margin-left: -9.5rem;
         width: 39rem;
@@ -3285,8 +3294,8 @@ li {
 
     #containerAviso img {
         height: 26rem;
-        max-width: 35rem;
-        margin-left: 2rem;
+        max-width: 34rem;
+        margin-left: 2.5rem;
     }
 
     #p1 {
@@ -3546,7 +3555,7 @@ li {
     .Avisos h1 {
         margin-left: 28rem;
         text-align: center;
-        margin-top: 13rem;
+        margin-top: -1rem;
     }
 
     .Avisos p {
@@ -3670,6 +3679,10 @@ li {
     #tvNovacap {
         margin-left: 20px;
         height: 65rem;
+    }
+
+    #TvImg {
+        width: 111px;
     }
 
     #tvVideo {
@@ -4052,7 +4065,7 @@ li {
 
     #tvNovacap img {
         max-width: 182px;
-        height: 87px;
+        height: 103px;
     }
 
     #tvNovacap {
