@@ -59,7 +59,7 @@ class Carousel {
     }
 }
 
-const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryControls);
+const exampleCarousel = new Carousel(galleryContainer, galleryItems, galleryH3, galleryControls);
 
 exampleCarousel.setControls();
 exampleCarousel.useControls();
