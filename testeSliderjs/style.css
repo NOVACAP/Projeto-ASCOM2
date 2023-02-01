@@ -159,7 +159,18 @@
 
 }
 
-.T-1 {
+.textoH3-{
+    height: 237px;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+    width: 411px;
+    z-index: 0;
+    border-radius: 0px;
+    background-size: contain;
+}
+
+.textoH3-1 {
     margin-top: 286px;
     margin-left: -56px;
     font-size: 20px;
@@ -168,7 +179,7 @@
     font-family: "Coolvetica Rg";
 }
 
-.T-2 {
+.textoH3-2 {
     margin-top: 341px;
     margin-left: 60px;
     font-size: 20px;
@@ -177,7 +188,7 @@
     font-family: "Coolvetica Rg";
 }
 
-.T-3 {
+.textoH3-3 {
     margin-top: 411px;
     margin-left: 226px;
     font-size: 20px;
@@ -186,7 +197,7 @@
     font-family: "Coolvetica Rg";
 }
 
-.T-4 {
+.textoH3-4 {
     margin-top: 341px;
     margin-left: 456px;
     font-size: 20px;
@@ -195,7 +206,7 @@
     font-family: "Coolvetica Rg";
 }
 
-.T-5 {
+.textoH3-5 {
     margin-top: 286px;
     margin-left: 644px;
     font-size: 20px;

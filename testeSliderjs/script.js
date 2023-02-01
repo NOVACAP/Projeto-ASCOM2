@@ -2,6 +2,7 @@ const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
 const galleryControls = ['previous', 'next'];
 const galleryItems = document.querySelectorAll('.gallery-item');
+const galleryH3 = document.querySelector('.textoH3-');
 
 class Carousel {
 
@@ -14,14 +15,20 @@ class Carousel {
     updateGallery(){
         this.carouselArray.forEach(el => {
             el.classList.remove('gallery-item-1');
+            el.classList.remove('textoH3-1');
             el.classList.remove('gallery-item-2');
+            el.classList.remove('textoH3-2');
             el.classList.remove('gallery-item-3');
+            el.classList.remove('textoH3-3');
             el.classList.remove('gallery-item-4');
+            el.classList.remove('textoH3-4');
             el.classList.remove('gallery-item-5');
+            el.classList.remove('textoH3-5');
         });
     
         this.carouselArray.slice(0, 5).forEach((el, i) => {
             el.classList.add(`gallery-item-${i+1}`);
+            el.classList.add(`textoH3-${i+1}`);
         });
     }
 
